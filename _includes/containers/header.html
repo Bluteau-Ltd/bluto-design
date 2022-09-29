@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta name="robots" content="noindex, follow"/>
+  <title>{{ site.title }} | {{ page.title }}</title>
+
+  <!-- META -->
+  <!-- please leave this for google domain verification (domain alias / HTTPS) -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=5.0" />
+  <!-- Open graphs protocal tags (creates rich content for social sharing) -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="{{ site.title }} | {{ page.title }}"/>
+  <meta property="og:description" content=""/>
+  <meta property="og:image" content="{{ site.url }}{{ site.imageurl }}/{% if page.layout == 'customers' %}customers/{{ page.preview_image }}{% elsif page.layout == 'posts' and page.image != "" %}posts/{{ page.image }}{% else %}og-image{% endif %}.jpg"/>
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="https://www.bluto.co.uk/css/app.css?id=c832014812e3c9b33fd4">
+  <link rel="stylesheet" href="assets/style.css" />
+  
+  <!-- FAVICONS -->
+
+</head>
+
+<body>
+
+{% include components/navbar.html %}
+
+<div class="page">
