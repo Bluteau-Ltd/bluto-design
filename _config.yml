@@ -3,6 +3,7 @@ description: >-
   CSS documentation for Bluto's webapp
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://docs.bluto.co.uk"
+permalink: /:title
 
 # Build settings
 plugins:

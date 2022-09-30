@@ -13,8 +13,10 @@ subtitle: "Cards are surfaces that display content and actions for a single elem
 | `card__header` | Card title, usually made of a `card__title` and `card__subtitle` elements |
 | `card__title` | You don't need to specify a text style, it is added automatically  |
 | `card__subtitle` | Optional. Display a smaller text below the title. You don't need to specify a text style, it is added automatically |
-| `card__content` | Cards can have multiple `card__content` elements |
+| `card__content` | Cards can have multiple instances of that element |
 | `card__actions` | Optional. Always the last element of the card, displays the buttons. Can have one or two children. If you have more than three buttons, wrap the ones to display together in a div |
+
+> In order for the styling to work, the children elements **image**, **header**, **content** and **actions** have to be siblings.
 
 ## Modifiers
 

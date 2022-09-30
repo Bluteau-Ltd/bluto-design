@@ -31,7 +31,7 @@ Changes style depending on the button content.
 
 | Class | Comment |
 | --- | --- |
-| | The default size. You don't need to add an additional class | <a href="" class="button button--main">Default</a> |
+| | The default variant. You don't need to add an additional class | <a href="" class="button button--main">Default</a> |
 | `button--icon` | Icon only buttons | <a href="" class="button button--main button--icon"></a> |
 | `button--link` | Basic underlined links with no background color | <a href="" class="button--main button--link">Link</a> |
 | `button--transparent` | Remove the background color and use the color value as text (or icon) color | <a href="" class="button button--main button--transparent">Transparent</a> |
