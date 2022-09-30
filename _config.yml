@@ -1,5 +1,4 @@
-# Welcome to Jekyll!
-title: Bluto documentation
+title: Bluto docs
 description: >-
   CSS documentation for Bluto's webapp
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -7,13 +6,7 @@ url: "https://docs.bluto.co.uk"
 
 # Build settings
 plugins:
-  - jekyll-autoprefixer
-  - jekyll-coffeescript
-  - jekyll-inline-svg
-# autoprefixer (for css)
-autoprefixer:
-  browsers:
-  - last 10 versions
+  - jekyll-feed
 # sass
 sass:
   sass_dir: assets/_sass
@@ -29,9 +22,6 @@ compress_html:
   blanklines: true
   profile: false
   startings: []
-# svg
-svg:
-  optimize: true
 
 # Exclude from processing.
 exclude:
