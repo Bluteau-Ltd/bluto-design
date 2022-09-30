@@ -1,0 +1,8 @@
+.section {
+  text-align: left;
+  
+  &__header,
+  &__subtitle {
+    margin-left: 0;
+  }
+}

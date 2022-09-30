@@ -4,5 +4,10 @@
 @charset "UTF-8";
 
 @import	
-  "common/_global"
+  "common/_global",
+
+  "components/_editor",
+  "components/_section",
+
+  "plugins/_highlighter-theme"
 ;

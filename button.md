@@ -4,29 +4,32 @@ title: "Button"
 subtitle: "Component for every call-to-action."
 ---
 
-### Modifiers
+## Modifiers
+
+Add classes to the base class `button` class to change the style of the component.
 
 ### Size
 
 Override the default size of the compoent.
 
-| Class | Description |
-| --- | --- |
-| `button--xs` | <a href="" class="button button--main">Primary</a> |
-| `button--sm` | |
-| `button--lg` | Use very scarcely. Only used for very large CTAs on the public website |
+| Class | Comment | Design |
+| --- | --- | --- |
+| `button--xs` | | <a href="" class="button button--main button--xs">Extra small</a> |
+| `button--sm` | | <a href="" class="button button--main button--sm">Small</a> |
+| | The default size. You don't need to add an additional class | <a href="" class="button button--main">Medium</a> |
+| `button--lg` | Use very scarcely. Only used for very large CTAs on the public website | <a href="" class="button button--main button--lg">Large</a> |
 
 ### Variant
 
 Changes style depending on the button content.
 
-| Class | Description |
+| Class | Comment |
 | --- | --- |
-| `button--icon` | Icon only buttons |
-| `button--link` | Basic underlined links with no background color |
-| `button--transparent` | Remove the background color and use the color value as text (or icon) color |
-| `button--menu` | Hamburger icon for mobile menu |
-| `button--fullWidth` | Takes the full width of the container |
+| | The default size. You don't need to add an additional class | <a href="" class="button button--main">Default</a> |
+| `button--icon` | Icon only buttons | <a href="" class="button button--main button--icon"></a> |
+| `button--link` | Basic underlined links with no background color | <a href="" class="button--main button--link">Link</a> |
+| `button--transparent` | Remove the background color and use the color value as text (or icon) color | <a href="" class="button button--main button--transparent">Transparent</a> |
+| `button--fullWidth` | Takes the full width of the container | <a href="" class="button button--main button--fullWidth">Full width</a> |
 
 ### Color
 
@@ -47,14 +50,14 @@ Changes button color. Which element is colored (background, text, icon, etc.) wi
 | `button--instagram` | <a href="" class="button button--instagram">Instagram</a> |
 | `button--facebook` | <a href="" class="button button--facebook">Facebook</a> |
 
-### Example
+## Examples
 
 ```html
 <div class="button button--sm button--error">
   Label
 </div>
 
-<div class="button button--icon button--main">
+<div class="button button--icon button--lg button--main">
   @include('components.partials.svgs.icon-arrow-down')
 </div>
 ```
