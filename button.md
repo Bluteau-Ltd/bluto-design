@@ -6,7 +6,7 @@ subtitle: "Component for every call-to-action."
 
 ## Modifiers
 
-Add classes to the base class `button` class to change the style of the component.
+Add classes to the base class `button` to change the style of the component.
 
 ### Size
 
@@ -56,7 +56,9 @@ Changes button color. Which element is colored (background, text, icon, etc.) wi
 <div class="button button--sm button--error">
   Label
 </div>
+```
 
+```html
 <div class="button button--icon button--lg button--main">
   @include('components.partials.svgs.icon-arrow-down')
 </div>
