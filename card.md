@@ -1,0 +1,71 @@
+---
+layout: "default"
+title: "Card"
+subtitle: "Cards are surfaces that display content and actions for a single element. They are one of the most used layout elements."
+---
+
+## Elements
+
+| Class | Comment |
+| --- | --- |
+| `card` | Parent component |
+| `card__image` | |
+| `card__header` | Card title, usually made of a `card__title` and `card__subtitle` elements |
+| `card__title` | You don't need to specify a text style, it is added automatically  |
+| `card__subtitle` | Optional. Display a smaller text below the title. You don't need to specify a text style, it is added automatically |
+| `card__content` | Cards can have multiple `card__content` elements |
+| `card__actions` | Optional. Always the last element of the card, displays the buttons. Can have one or two children. If you have more than three buttons, wrap the ones to display together in a div |
+
+## Modifiers
+
+### Size
+
+Overrides the default size of the card. This changes:
+
+- the card `border-radius`
+- the childre elements `padding`
+- the `card__title` and `card__subtitle` text sizes
+
+| Classes |
+| --- |
+| `card--sm` |
+| `card--lg` |
+
+### Variants
+
+Changes the overral style of the card.
+
+| Classes |
+| --- |
+| `card--center` | Centers all the content of the card |
+| `card--no-shadow` | Removes the background shadow |
+| `card--transparent` | Removes the background shadow and the outer padding |
+| `card--mobile` | Removes the background shadow and the outer padding on mobile devices (see login page) |
+
+## Overrides
+
+If you need to apply some styling to a specific instance of the card component (i.e. `card--product`, `card--ingredients`), you can create a custom modifier and add your styles in that section.
+
+## Examples
+
+```html
+<div class="card card--sm card--transparent">
+  <div class="card__header">
+    <h3 class="card__title"></h3>
+    <p class="card__subtitle"></p>
+  </div>
+  <div class="card__content">
+    <!-- add content here -->
+  </div>
+  <div class="card__content">
+    <!-- add content here -->
+  </div>
+  <div class="card__actions">
+    <div>
+      <button class="button button--error"></button>
+      <button class="button button--grey"></button>
+    </div>
+    <button class="button button--blue"></button>
+  </div>
+</div>
+```

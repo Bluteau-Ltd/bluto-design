@@ -4,6 +4,12 @@ title: "Button"
 subtitle: "Component for every call-to-action."
 ---
 
+## Elements
+
+| Class | Comment |
+| --- | --- |
+| `button` | Parent container |
+
 ## Modifiers
 
 Add classes to the base class `button` to change the style of the component.

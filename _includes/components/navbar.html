@@ -1,3 +1,50 @@
-<header>
-  <nav></nav>
-</header>
+<nav class="section navbar">
+  <div class="section__container">
+    <div class="navbar__button js-button-menu button--menu show--desktop">
+      <i class="button__inner"></i>
+    </div>
+    <div class="navbar__logo">
+    </div>
+    <div class="navbar__nav nav">
+      <div class="nav__container">
+        <div class="nav__items">
+          <div class="nav__item">
+            <a class="nav__trigger" href="/">Home</a>
+          </div>
+          <div class="nav__item dropdown">
+            <div class="nav__trigger" id="dropdown-documentation" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span>Documentation</span>
+            </div>
+            <div class="subnav dropdown-menu" aria-labelledby="dropdown-documentation">
+              <a class="subnav__item" href="/tech">Tech stack</a>
+              <a class="subnav__item" href="/conventions">Conventions</a>
+              <a class="subnav__item" href="/architecture">CSS architecture</a>
+            </div>
+          </div>
+          <div class="nav__item dropdown">
+            <div class="nav__trigger" id="dropdown-common" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span>Common</span>
+            </div>
+            <div class="subnav dropdown-menu" aria-labelledby="dropdown-common">
+              <a class="subnav__item" href="/variables">Variables</a>
+              <a class="subnav__item" href="/mixins">Mixins</a>
+              <a class="subnav__item" href="/global">Global</a>
+            </div>
+          </div>
+          <div class="nav__item dropdown">
+            <div class="nav__trigger" id="dropdown-components" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span>Components</span>
+            </div>
+            <div class="subnav dropdown-menu" aria-labelledby="dropdown-components">
+              <a class="subnav__item" href="/alert">Alert</a>
+              <a class="subnav__item" href="/button">Button</a>
+              <a class="subnav__item" href="/card">Card</a>
+              <a class="subnav__item" href="/section">Section</a>
+              <a class="subnav__item" href="/text">Text</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

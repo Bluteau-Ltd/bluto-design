@@ -4,15 +4,16 @@ title: "Alert"
 subtitle: "An alert (or snackbar, toast message, etc.) component. Used to display feedback to the user after an action, but also to emphasise an element on a page (for a notice for intance)."
 ---
 
-> The icon on the left is added automatically with CSS.
-
 ## Elements
 
-| Class | Description |
+| Class | Comment |
 | --- | --- |
+| `alert` | Parent container |
 | `alert__title` | Main text of the alert |
 | `alert__subtitle` | Optional. Smaller text below the title |
 | `alert__close` | Close icon (only used for toast messages) |
+
+> The icon on the left is added automatically with CSS.
 
 ## Modifiers
 
@@ -29,9 +30,9 @@ Changes the alert color to convey the severity of the alert.
 | `alert--warning` | <span class="alert alert--warning alert--notice"></span> |
 | `alert--error` | <span class="alert alert--error alert--notice"></span> |
 
-### Wariant
+### Variant
 
-| Class | Description |
+| Class | Comment |
 | --- | --- |
 | `alert--notice` | Overrides the default absolute positioning to display the alert as a notice on the page |
 
@@ -39,11 +40,11 @@ Changes the alert color to convey the severity of the alert.
 
 Overrides the font size and paddings of the alert component.
 
-| Class | Description |
+| Class | Comment |
 | --- | --- |
 | `alert--sm` | Makes the alert component smaller (eg. if it's used for a form notice) |
 
-## Example
+## Examples
 
 ```html
 <div class="alert alert--success">

@@ -1,16 +1,26 @@
+// ——————————————————————————————————————————————————
+// ship to webapp
+// overrides
+// ——————————————————————————————————————————————————
+
+// ——————————————————————————————————————————————————
+// ship to webapp
+// ——————————————————————————————————————————————————
+
 .editor {
 
   table,
+  blockquote,
   .highlighter-rouge {
-
-    &:not(:first-child) { margin-top: 16px; }
+    
+    &:not(:first-child) { margin-top: 1rem; }
   }
-
+  
   thead {
     border: 1px solid #F2F3F4;
-    background-color: #F8F8F8;
+    background-color: #EFF0F2;
   }
-
+  
   th,
   td {
     padding: 4px 8px;
@@ -18,9 +28,38 @@
   }
   
   th {
-    // @extend .caption;
-    font-size: 0.875rem;
+    // @extend .overline;
+    font-size: 0.75rem;
     font-weight: bold;
     color: #8C8C96;
+  }
+  
+  blockquote {
+    background-color: #F8F8F8;
+    color: #262F40;
+    padding: 12px 16px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left: 8px solid #D7D7DC;
+    max-width: 600px;
+  }
+}
+
+// ——————————————————————————————————————————————————
+// overrides
+// ——————————————————————————————————————————————————
+
+.editor {
+
+  h2 {
+    border-bottom: 2px solid #F2F3F4;
+    padding-bottom: 1rem;
+
+    &:not(:first-child) { margin-top: 3rem; }
+    &:not(:last-child) { margin-bottom: 2rem; }
+  }
+
+  p {
+    max-width: 600px;
   }
 }
