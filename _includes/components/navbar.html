@@ -21,12 +21,12 @@
               <span>Documentation</span>
             </div>
             <div class="subnav dropdown-menu" aria-labelledby="dropdown-documentation">
-              <a class="subnav__item" href="">Tech stack</a>
-              <a class="subnav__item" href="">Conventions</a>
-              <a class="subnav__item" href="">CSS architecture</a>
+              <!-- <a class="subnav__item" href="">Tech stack</a> -->
+              <a class="subnav__item" href="{% link _documentation/conventions.md %}">Conventions</a>
+              <!-- <a class="subnav__item" href="">CSS architecture</a> -->
             </div>
           </div>
-          <div class="nav__item dropdown">
+          <!-- <div class="nav__item dropdown">
             <div class="nav__trigger" id="dropdown-common" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span>Common</span>
             </div>
@@ -35,17 +35,17 @@
               <a class="subnav__item" href="">Mixins</a>
               <a class="subnav__item" href="">Global</a>
             </div>
-          </div>
+          </div> -->
           <div class="nav__item dropdown">
             <div class="nav__trigger" id="dropdown-components" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span>Components</span>
             </div>
             <div class="subnav dropdown-menu" aria-labelledby="dropdown-components">
-              <a class="subnav__item" href="{% link alert.md %}">Alert</a>
-              <a class="subnav__item" href="{% link button.md %}">Button</a>
-              <a class="subnav__item" href="{% link card.md %}">Card</a>
-              <a class="subnav__item" href="{% link section.md %}">Section</a>
-              <a class="subnav__item" href="{% link text.md %}">Text</a>
+              <a class="subnav__item" href="{% link _components/alert.md %}">Alert</a>
+              <a class="subnav__item" href="{% link _components/button.md %}">Button</a>
+              <a class="subnav__item" href="{% link _components/card.md %}">Card</a>
+              <a class="subnav__item" href="{% link _components/section.md %}">Section</a>
+              <a class="subnav__item" href="{% link _components/text.md %}">Text</a>
             </div>
           </div>
         </div>
