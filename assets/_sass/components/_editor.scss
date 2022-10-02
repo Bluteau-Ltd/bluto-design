@@ -12,28 +12,41 @@
   table,
   blockquote,
   .highlighter-rouge {
-    
+
     &:not(:first-child) { margin-top: 1rem; }
   }
-  
+
+  table {
+    border-collapse: separate;
+    border: 1px solid rgba(#8C8C96, 0.2);
+    border-radius: 8px;
+  }
+
   thead {
-    border: 1px solid #F2F3F4;
     background-color: #EFF0F2;
   }
-  
-  th,
-  td {
+
+  td,
+  th {
     padding: 4px 8px;
-    border: 1px solid rgba(#8C8C96, 0.2);
+    border-top: 1px solid rgba(#8C8C96, 0.2);
+    
+    &:not(:first-child) {
+      border-left: 1px solid rgba(#8C8C96, 0.2);
+    }
   }
-  
+
   th {
     // @extend .overline;
     font-size: 0.75rem;
     font-weight: bold;
     color: #8C8C96;
+    border-top: none;
+
+    &:first-of-type { border-top-left-radius: 8px; }
+    &:last-of-type { border-top-right-radius: 8px; }
   }
-  
+
   blockquote {
     background-color: #F8F8F8;
     color: #262F40;
