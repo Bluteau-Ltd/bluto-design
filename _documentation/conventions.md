@@ -17,7 +17,7 @@ The CSS styles are based on an adapted version of BEM terminology (for Block Ele
   - In rare cases, parents can be elements (for instance `accordion__wrapper` which wraps all the `accordion` elements).
 - **Modifiers** are classes we add to change the appearance of a block (e.g. `button--error`, `alert--success`).
   - The modifier name is separated from the class name with a double hyphen `--`.
-  - Can sometimes change the appearance of an element (eg. `grid__item--6`).
+  - In rare cases, elements can have modifiers (eg. `grid__item--6`).
 
 #### Example
 
@@ -55,3 +55,4 @@ If you need to have multiple words in your file, separate them with a dash `-`.
 
 ## Syntax rules
 
+Always express sizes by multiplying or diving the `$spacing` variable. For fonts, use the `rem` units.
