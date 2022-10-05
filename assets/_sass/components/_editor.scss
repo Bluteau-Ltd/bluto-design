@@ -15,6 +15,10 @@
 
     &:not(:first-child) { margin-top: 1rem; }
   }
+  
+  .highlighter-rouge {
+    &:not(:last-child) { margin-bottom: 1rem; }
+  }
 
   table {
     border-collapse: separate;
@@ -55,6 +59,20 @@
     border-bottom-right-radius: 8px;
     border-left: 8px solid #D7D7DC;
     max-width: 600px;
+  }
+
+  li {
+
+    > ul {
+      margin-top: 0.25rem !important;
+    }
+
+    &:not(:last-child) {
+
+      > ul {
+        margin-bottom: 0.25rem;
+      }
+    }
   }
 }
 
