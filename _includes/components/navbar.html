@@ -17,36 +17,33 @@
             <a class="nav__trigger" href="{% link index.html %}">Home</a>
           </div>
           <div class="nav__item dropdown">
-            <div class="nav__trigger" id="dropdown-documentation" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav__trigger" href="/" id="dropdown-documentation" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span>Documentation</span>
-            </div>
+            </a>
             <div class="subnav dropdown-menu" aria-labelledby="dropdown-documentation">
-              <a class="subnav__item" href="{% link _documentation/tech-stack.md %}">Tech stack</a>
-              <a class="subnav__item" href="{% link _documentation/conventions.md %}">Conventions</a>
-              <a class="subnav__item" href="{% link _documentation/file-structure.md %}">File structure</a>
+              {% for page in site.documentation %}
+              <a class="subnav__item" href="{{ page.url }}">{{ page.title }}</a>
+              {% endfor %}
             </div>
           </div>
           <!-- <div class="nav__item dropdown">
-            <div class="nav__trigger" id="dropdown-common" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav__trigger" href="/" id="dropdown-common" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span>Common</span>
-            </div>
+            </a>
             <div class="subnav dropdown-menu" aria-labelledby="dropdown-common">
-              <a class="subnav__item" href="">Variables</a>
-              <a class="subnav__item" href="">Mixins</a>
-              <a class="subnav__item" href="">Global</a>
+              {% for page in site.common %}
+              <a class="subnav__item" href="{{ page.url }}">{{ page.title }}</a>
+              {% endfor %}
             </div>
           </div> -->
           <div class="nav__item dropdown">
-            <div class="nav__trigger" id="dropdown-components" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav__trigger" href="/" id="dropdown-components" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span>Components</span>
-            </div>
+            </a>
             <div class="subnav dropdown-menu" aria-labelledby="dropdown-components">
-              <a class="subnav__item" href="{% link _components/alert.md %}">Alert</a>
-              <a class="subnav__item" href="{% link _components/button.md %}">Button</a>
-              <a class="subnav__item" href="{% link _components/card.md %}">Card</a>
-              <a class="subnav__item" href="{% link _components/grid.md %}">Grid</a>
-              <a class="subnav__item" href="{% link _components/section.md %}">Section</a>
-              <a class="subnav__item" href="{% link _components/text.md %}">Text</a>
+              {% for page in site.components %}
+              <a class="subnav__item" href="{{ page.url }}">{{ page.title }}</a>
+              {% endfor %}
             </div>
           </div>
         </div>
