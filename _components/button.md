@@ -8,22 +8,25 @@ subtitle: "Component for every call-to-action."
 
 | Class | Comment |
 | --- | --- |
-| `button` | Parent container |
+| `button` | Main element |
+| `button__wrapper` | Container of multiple buttons, handles spacing, alignement and responsive behaviour |
+| `button__inner` | Only used for `button--menu` variant, creates the middle line of the menu icon |
 
 ## Modifiers
 
-Add classes to the base class `button` to change the style of the component.
+Add classes to the base class `button` to change the style of the component. There is also a modifier for `button__wrapper` element.
 
 ### Size
 
-Override the default size of the compoent.
+Override the default size of the component.
 
 | Class | Comment | Design |
 | --- | --- | --- |
-| `button--xs` | | <a href="" class="button button--main button--xs">Extra small</a> |
-| `button--sm` | | <a href="" class="button button--main button--sm">Small</a> |
-| | The default size. You don't need to add an additional class | <a href="" class="button button--main">Medium</a> |
-| `button--lg` | Use very scarcely. Only used for very large CTAs on the public website | <a href="" class="button button--main button--lg">Large</a> |
+| `button--xs` | | <a href="" class="button button--primary button--xs">Extra small</a> |
+| `button--sm` | | <a href="" class="button button--primary button--sm">Small</a> |
+| | The default size. No additional class is needed | <a href="" class="button button--primary">Medium</a> |
+| `button--lg` | Larger button for when your CTA has to stand out. | <a href="" class="button button--primary button--lg">Large</a> |
+| `button--xl` | Use very scarcely. Only used for very large CTAs on the public website | <a href="" class="button button--primary button--xl">Extra large</a> |
 
 ### Variant
 
@@ -31,11 +34,12 @@ Changes style depending on the button content.
 
 | Class | Comment |
 | --- | --- |
-| | The default variant. You don't need to add an additional class | <a href="" class="button button--main">Default</a> |
-| `button--icon` | Icon only buttons | <a href="" class="button button--main button--icon"></a> |
-| `button--link` | Basic underlined links with no background color | <a href="" class="button--main button--link">Link</a> |
-| `button--transparent` | Remove the background color and use the color value as text (or icon) color | <a href="" class="button button--main button--transparent">Transparent</a> |
-| `button--fullWidth` | Takes the full width of the container | <a href="" class="button button--main button--fullWidth">Full width</a> |
+| | The default variant. You don't need to add an additional class | <a href="" class="button button--primary">Default</a> |
+| `button--icon` | Icon only buttons | <a href="" class="button button--primary button--icon"></a> |
+| `button--link` | Basic underlined links with no background color | <a href="" class="button--primary button--link">Link</a> |
+| `button--transparent` | Remove the background color and use the color value as text (or icon) color | <a href="" class="button button--primary button--transparent">Transparent</a> |
+| `button--menu` | Hamburger icon for mobile menu |
+| `button--fullWidth` | Takes the full width of the container | <a href="" class="button button--primary button--fullWidth">Full width</a> |
 
 ### Color
 
@@ -43,9 +47,9 @@ Changes button color. Which element is colored (background, text, icon, etc.) wi
 
 | Class | Design |
 | --- | --- |
-| `button--main` | <a href="" class="button button--main">Main</a> |
-| `button--blue` | <a href="" class="button button--blue">Blue</a> |
-| `button--yellow` | <a href="" class="button button--yellow">Yellow</a> |
+| `button--primary` | <a href="" class="button button--primary">Primary</a> |
+| `button--secondary` | <a href="" class="button button--secondary">Secondary</a> |
+| `button--highlight` | <a href="" class="button button--highlight">Highlight</a> |
 | `button--success` | <a href="" class="button button--success">Success</a> |
 | `button--info` | <a href="" class="button button--info">Info</a> |
 | `button--warning` | <a href="" class="button button--warning">Warning</a> |
@@ -65,7 +69,7 @@ Changes button color. Which element is colored (background, text, icon, etc.) wi
 ```
 
 ```html
-<div class="button button--icon button--lg button--main">
+<div class="button button--icon button--lg button--primary">
   @include('components.partials.svgs.icon-arrow-down')
 </div>
 ```

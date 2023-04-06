@@ -4,24 +4,26 @@ title: "Grid"
 subtitle: "Layout component to create column based grid structure like bootstrap."
 ---
 
+- Based on a 12 column grid
+- Use the flexbox properties
+- Has two elements: the `grid` parent block and the `grid__item` child element. 
+- The parent and child should **always follow each other directly**.
+- A `grid__item` can also be a `grid` if it's a parent of `grid__item` elements.
+
 ## Elements
 
 | Class | Description |
 | --- | --- |
-| `grid` | The parent element |
-| `grid__item` | The child element |
-
-- Based on a 12 column grid
-- Use the flexbox properties
-- Has two components: the `grid` parent block and the `grid__item` child element. 
-- The parent and child should **always follow each other directly**.
-- A `grid__item` element can also be a `grid` block if it's a parent of `grid__item` elements.
+| `grid` | Parent element |
+| `grid__item` | Child element |
 
 > This comopenent has a specificity: some modifiers can be aplied to both the block `grid` and the element `grid__item`
 
 ## Modifiers
 
 ### Variants
+
+Can only be applied to `grid`.
 
 | Classes | Description |
 | --- | --- |
@@ -42,10 +44,10 @@ Sets the width of `grid__item` elements. Can only be applied to `grid__item`.
 | Classes | Description
 | --- | --- |
 | `grid__item--X` | X can be a value between 1 to 12 |
-| `grid__item--smX` | Column width applied to amything wider than the `$mobile` breakpoint |
-| `grid__item--mdX` | Column width applied to amything wider than the `$tablet` breakpoint |
-| `grid__item--lgX` | Column width applied to amything wider than the `$laptop` breakpoint |
-| `grid__item--xlX` | Column width applied to amything wider than the `$desktop` breakpoint |
+| `grid__item--smX` | Column width applied if wider than the `$mobile` breakpoint |
+| `grid__item--mdX` | Column width applied if wider than the `$tablet` breakpoint |
+| `grid__item--lgX` | Column width applied if wider than the `$laptop` breakpoint |
+| `grid__item--xlX` | Column width applied if wider than the `$desktop` breakpoint |
 
 ### Direction
 

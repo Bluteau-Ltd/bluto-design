@@ -49,10 +49,12 @@ Never use abbreviations (ie. never write img for image, or btn for button), exce
 
 All scss files start with an underscore `_`.
 
-For files in the pages folder, always use the same name the SCSS file as the blade file.
+For files in the pages folder, always use the same name for the SCSS file as the blade file.
 
 If you need to have multiple words in your file, separate them with a dash `-`.
 
 ## Syntax rules
 
-Always express sizes by multiplying or diving the `$spacing` variable. For fonts, use the `rem` units.
+Always express sizes by multiplying the `$spacing` variable. 
+
+For fonts, use `rem` units.

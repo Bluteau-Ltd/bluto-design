@@ -7,6 +7,12 @@
   padding: 2px 8px;
   border-radius: 8px;
   width: 100%;
+  
+  &.language-plaintext {
+    background-color: #EFF0F2;
+    color: #485061;
+    border-radius: 4px;
+  }
 
   > .highlight {
     padding: 16px 12px; 

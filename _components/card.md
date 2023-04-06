@@ -8,7 +8,7 @@ subtitle: "Cards are surfaces that display content and actions for a single elem
 
 | Class | Comment |
 | --- | --- |
-| `card` | Parent component |
+| `card` | Main element |
 | `card__image` | |
 | `card__header` | Card title, usually made of a `card__title` and `card__subtitle` elements |
 | `card__title` | You don't need to specify a text style, it is added automatically  |
@@ -67,7 +67,7 @@ If you need to apply some styling to a specific instance of the card component (
       <button class="button button--error"></button>
       <button class="button button--grey"></button>
     </div>
-    <button class="button button--blue"></button>
+    <button class="button button--secondary"></button>
   </div>
 </div>
 ```

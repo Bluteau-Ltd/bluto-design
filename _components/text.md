@@ -1,10 +1,10 @@
 ---
 layout: "default"
 title: "Text"
-subtitle: "Description"
+subtitle: "This is a special component. Elements do not follow the BEM nomenclature (but the modifiers do). Each elements has a disctinct class name."
 ---
 
-> Here be specific and talk about the difference betweem the styles classes and the modifiers, and the fact that modifiers apply to any element This is a special component in the sense that elements do not follow the BEM nomenclature (but modifiers does). Each elements has a disctinct class name.
+> For this component, elements do not follow the BEM nomenclature (but modifiers do). Elements all have unique classes names, each class name corresponding to a different text style. Modifiers can be applied to any element.
 
 ## Elements
 
@@ -62,15 +62,18 @@ Change the text color (can be used on any element of the DOM).
 
 | Classes |
 | --- |
-| `text--black` |
-| `text--grey` |
-| `text--white` |
-| `text--main` |
-| `text--blue` |
-| `text--success` |
-| `text--info` |
-| `text--warning` |
-| `text--error` |
+| `text--default` | <span class="body text--default">This is a default text</span> |
+| `text--alt` | <span class="body text--alt">This is an alternate text</span> |
+| `text--disabled` | <span class="body text--disabled">This is a disabled text</span> |
+| `text--contrast` | <span class="body text--contrast">This is a default contrast text</span> |
+| `text--contrastAlt` | <span class="body text--contrastAlt">This is an alternate contrast text</span> |
+| `text--contrastDisabled` | <span class="body text--contrastDisabled">This is a disabled contrast text</span> |
+| `text--primary` | <span class="body text--primary">This is a primary text</span> |
+| `text--secondary` | <span class="body text--secondary">This is a secondary text</span> |
+| `text--success` | <span class="body text--success">This is a success text</span> |
+| `text--info` | <span class="body text--info">This is an info text</span> |
+| `text--warning` | <span class="body text--warning">This is a warning text</span> |
+| `text--error` | <span class="body text--error">This is an error text</span> |
 
 ## Examples
 

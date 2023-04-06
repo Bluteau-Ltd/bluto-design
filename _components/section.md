@@ -8,7 +8,7 @@ subtitle: "Main layout component. Each page is a succession of section with diff
 
 | Class | Comment |
 | --- | --- |
-| `section` | Parent component |
+| `section` | Main element |
 | `section__container` | Required. Sets the max-width of the section content |
 | `section__header` | Optional. Header of the section, composed mainly of a title and a subtitle |
 | `section__label` | Can only be used inside `section__header` |
@@ -25,10 +25,10 @@ Sets the background color of the section. The default value is white. This autom
 
 | Classes |
 | --- |
-| `section--white` |
-| `section--main` |
-| `section--blue` |
-| `section--blue-lighter` |
+| `section--white` | <span class="colorBlock fill--white"></span> |
+| `section--primary` | <span class="colorBlock fill--main"></span> |
+| `section--secondary` | <span class="colorBlock fill--secondary"></span> |
+| `section--secondaryLighter` | <span class="colorBlock fill--secondaryLighter"></span> |
 
 ### Variants
 

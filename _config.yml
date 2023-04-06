@@ -10,9 +10,9 @@ collections:
   documentation:
     output: true
     permalink: /documentation/:path
-  common:
+  utils:
     output: true
-    permalink: /common/:path
+    permalink: /utils/:path
   components:
     output: true
     permalink: /components/:path
