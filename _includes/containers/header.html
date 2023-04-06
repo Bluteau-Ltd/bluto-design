@@ -5,23 +5,31 @@
   <meta name="robots" content="noindex, follow"/>
   <title>{{ site.title }} | {{ page.title }}</title>
 
-  <!-- META -->
-  <!-- please leave this for google domain verification (domain alias / HTTPS) -->
+  <!-- meta -->
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=5.0" />
-  <!-- Open graphs protocal tags (creates rich content for social sharing) -->
   <meta property="og:type" content="website"/>
   <meta property="og:title" content="{{ site.title }} | {{ page.title }}"/>
   <meta property="og:description" content=""/>
-  <meta property="og:image" content="{{ site.url }}{{ site.imageurl }}/{% if page.layout == 'customers' %}customers/{{ page.preview_image }}{% elsif page.layout == 'posts' and page.image != "" %}posts/{{ page.image }}{% else %}og-image{% endif %}.jpg"/>
+  <meta property="og:image" content=""/>
   <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
 
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="https://www.bluto.co.uk/css/app.css">
   <link rel="stylesheet" type="text/css" href="{{ site.base-url }}/assets/stylesheets/style.css" />
   
-  <!-- FAVICONS -->
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.bluto.co.uk/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.bluto.co.uk/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.bluto.co.uk/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="https://www.bluto.co.uk/images/favicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#0f2d55">
+  <meta name="theme-color" content="#0f2d55">
+
+  <!-- typeface -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 
