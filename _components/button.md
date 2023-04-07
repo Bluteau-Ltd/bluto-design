@@ -6,7 +6,7 @@ subtitle: "Component for every call-to-action."
 
 ## Elements
 
-| Class | Comment |
+| Class | Description |
 | --- | --- |
 | `button` | Main element |
 | `button__wrapper` | Container of multiple buttons, handles spacing, alignement and responsive behaviour |
@@ -20,7 +20,7 @@ Add classes to the base class `button` to change the style of the component. The
 
 Override the default size of the component.
 
-| Class | Comment | Design |
+| Class | Description | Design |
 | --- | --- | --- |
 | `button--xs` | | <a href="" class="button button--primary button--xs">Extra small</a> |
 | `button--sm` | | <a href="" class="button button--primary button--sm">Small</a> |
@@ -32,7 +32,7 @@ Override the default size of the component.
 
 Changes style depending on the button content.
 
-| Class | Comment |
+| Class | Description |
 | --- | --- |
 | | The default variant. You don't need to add an additional class | <a href="" class="button button--primary">Default</a> |
 | `button--icon` | Icon only buttons | <a href="" class="button button--primary button--icon"></a> |

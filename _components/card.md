@@ -6,7 +6,7 @@ subtitle: "Cards are surfaces that display content and actions for a single elem
 
 ## Elements
 
-| Class | Comment |
+| Class | Description |
 | --- | --- |
 | `card` | Main element |
 | `card__image` | |
@@ -37,8 +37,8 @@ Overrides the default size of the card. This changes:
 
 Changes the overral style of the card.
 
-| Classes |
-| --- |
+| Classes | Description |
+| --- | --- |
 | `card--center` | Centers all the content of the card |
 | `card--no-shadow` | Removes the background shadow |
 | `card--transparent` | Removes the background shadow and the outer padding |
@@ -57,10 +57,10 @@ If you need to apply some styling to a specific instance of the card component (
     <p class="card__subtitle"></p>
   </div>
   <div class="card__content">
-    <!-- add content here -->
+    <!-- add content -->
   </div>
   <div class="card__content">
-    <!-- add content here -->
+    <!-- add content -->
   </div>
   <div class="card__actions">
     <div>

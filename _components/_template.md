@@ -6,10 +6,8 @@ subtitle: ""
 
 ## Elements
 
-| Class | Comment |
+| Class | Description |
 | --- | --- |
-| `` | |
-| `` | |
 | `` | |
 
 ## Modifiers
@@ -21,12 +19,10 @@ Add classes to the base class `` to change the style of the component.
 | Class | |
 | --- | --- |
 | `` | |
-| `` | |
-| `` | |
 
 ### Variant
 
-| Class | Comment |
+| Class | Description |
 | --- | --- |
 | `` | |
 

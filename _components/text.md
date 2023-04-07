@@ -8,7 +8,7 @@ subtitle: "This is a special component. Elements do not follow the BEM nomenclat
 
 ## Elements
 
-| Class | Size (in rem) | Default weight | Comment | Design |
+| Class | Size (in rem) | Default weight | Description | Design |
 | --- | --- |--- | --- | --- |
 | `h1` | 3.5 | bold | Home page title | <span class="h1">h1</span>
 | `h2` | 2.5 | bold | Default page titles | <span class="h2">h2</span>
@@ -31,7 +31,7 @@ subtitle: "This is a special component. Elements do not follow the BEM nomenclat
 
 Overrides the font style (can be used on any element of the DOM).
 
-| Classes | Comment |
+| Classes | Description |
 | --- | --- |
 | `text--underline` | Add a line below the text |
 | `text--italic` |  |

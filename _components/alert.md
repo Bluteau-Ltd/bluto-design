@@ -6,7 +6,7 @@ subtitle: "An alert (or snackbar, toast message, etc.) component. Used to displa
 
 ## Elements
 
-| Class | Comment |
+| Class | Description |
 | --- | --- |
 | `alert` | Main element |
 | `alert__title` | Main text of the alert |
@@ -32,7 +32,7 @@ Changes the color to convey the severity of the alert.
 
 ### Variant
 
-| Class | Comment |
+| Class | Description |
 | --- | --- |
 | `alert--notice` | Overrides the default absolute positioning to display the alert as a notice on the page |
 
@@ -40,7 +40,7 @@ Changes the color to convey the severity of the alert.
 
 Overrides the font size and paddings of the alert component.
 
-| Class | Comment |
+| Class | Description |
 | --- | --- |
 | `alert--sm` | Makes the alert component smaller (eg. if it's used for a form notice) |
 

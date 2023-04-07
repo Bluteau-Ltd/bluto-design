@@ -6,7 +6,7 @@ subtitle: "Main layout component. Each page is a succession of section with diff
 
 ## Elements
 
-| Class | Comment |
+| Class | Description |
 | --- | --- |
 | `section` | Main element |
 | `section__container` | Required. Sets the max-width of the section content |
@@ -32,7 +32,7 @@ Sets the background color of the section. The default value is white. This autom
 
 ### Variants
 
-| Classes | Comment |
+| Classes | Description |
 | --- | --- |
 | `section--fullWidth` | Display the section__content element on the full width of the page (e.g. [product carousel](https://www.bluto.co.uk/#products-carousel)) |
 

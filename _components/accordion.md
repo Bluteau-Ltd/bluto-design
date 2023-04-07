@@ -20,7 +20,7 @@ When accordions are displayed in small block, you can use a dense variant of the
 
 | Class | Desscription |
 | --- | --- |
-| `accordion--sm` | Dense version of the component |
+| `accordion--sm` | Makes all the elements smaller |
 
 ### Active
 
