@@ -1,5 +1,7 @@
 ---
 layout: "default"
+
+label: "Layout"
 title: "Section"
 subtitle: "Main layout component. Each page is a succession of section with different modifiers"
 ---

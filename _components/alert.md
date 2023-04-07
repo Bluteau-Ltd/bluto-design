@@ -1,5 +1,7 @@
 ---
 layout: "default"
+
+label: "Feedback"
 title: "Alert"
 subtitle: "An alert (or snackbar, toast message, etc.) component. Used to display feedback to the user after an action, but also to emphasise an element on a page (for a notice for intance)."
 ---

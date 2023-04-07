@@ -1,5 +1,7 @@
 ---
 layout: "default"
+
+label: "Mixins"
 title: "Text"
 subtitle: "This is a special component. Elements do not follow the BEM nomenclature (but the modifiers do). Each elements has a disctinct class name."
 ---

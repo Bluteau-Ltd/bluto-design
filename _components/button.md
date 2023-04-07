@@ -1,5 +1,7 @@
 ---
 layout: "default"
+
+label: "Navigation"
 title: "Button"
 subtitle: "Component for every call-to-action."
 ---

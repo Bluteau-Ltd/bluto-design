@@ -1,5 +1,7 @@
 ---
 layout: "default"
+
+label: "Layout"
 title: "Card"
 subtitle: "Cards are surfaces that display content and actions for a single element. They are one of the most used layout elements."
 ---

@@ -1,5 +1,7 @@
 ---
 layout: "default"
+
+label: "Layout"
 title: "Grid"
 subtitle: "Layout component to create column based grid structure like bootstrap."
 ---

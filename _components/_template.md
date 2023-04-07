@@ -1,7 +1,9 @@
 ---
 layout: "default"
+
+# label: ""
 title: "Template"
-subtitle: ""
+# subtitle: ""
 ---
 
 ## Elements

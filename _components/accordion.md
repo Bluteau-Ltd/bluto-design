@@ -1,5 +1,7 @@
 ---
 layout: "default"
+
+label: "Navigation"
 title: "Accordion"
 subtitle: "A collection of collapsible elements."
 ---

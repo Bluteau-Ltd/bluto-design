@@ -1,5 +1,7 @@
 ---
 layout: "default"
+
+label: "Data"
 title: "Tag"
 subtitle: "Tags are small snippets of short text giving information about the elements they are associated with (usually their state)."
 ---

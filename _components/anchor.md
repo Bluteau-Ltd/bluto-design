@@ -1,5 +1,7 @@
 ---
 layout: "default"
+
+label: "Navigation"
 title: "Anchor"
 subtitle: "Create a dynamic scroll to another part of the same page with an anchor link."
 ---
