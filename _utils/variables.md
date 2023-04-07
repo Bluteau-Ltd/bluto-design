@@ -9,14 +9,14 @@ title: "Variables"
 
 **Common**
 
-| Name | Value | Swatch |
+| Name | Value | |
 | --- | --- | --- |
 | `$black` | `#000A1E` | <span class="colorBlock fill--black"></span> |
 | `$white` | `#FFFFFF` | <span class="colorBlock fill--white"></span> |
 
 **Greys**
 
-| Name | Value | Swatch |
+| Name | Value | |
 | --- | --- | --- |
 | `$grey-90` | `#1D2638` | <span class="colorBlock fill--grey90"></span> |
 | `$grey-80` | `#323B4D` | <span class="colorBlock fill--grey80"></span> |
@@ -31,14 +31,14 @@ title: "Variables"
 
 **Text**
 
-| Name | Value | Swatch | Description |
+| Name | Value | |
 | --- | --- | --- | --- |
 | `$text` | `$black` | <span class="body text--default">This is a default text</span> |
 | `$text-alt` | `$grey-60` | <span class="body text--alt">This is an alternate text</span> |
 | `$text-disabled` | `rgba($text, 0.4)` | <span class="body text--disabled">This is a disabled text</span> |
-| `$text-contrast` | `$white` | <span class="body text--contrast">This is a default contrast text</span> |
-| `$text-contrast-alt` | `$grey-40` | <span class="body text--contrastAlt">This is an alternate contrast text</span> |
-| `$text-contrast-disabled` | `rgba($text, 0.4)` | <span class="body text--contrastDisabled">This is a disabled contrast text</span> |
+| `$text-contrast` | `$white` | <span class="textBlock fill--black"><span class="body text--contrast">This is a default contrast text</span></span> |
+| `$text-contrast-alt` | `$grey-40` | <span class="textBlock fill--black"><span class="body text--contrastAlt">This is an alternate contrast text</span></span> |
+| `$text-contrast-disabled` | `rgba($text, 0.4)` | <span class="textBlock fill--black"><span class="body text--contrastDisabled">This is a disabled contrast text</span></span> |
 
 ### Brand
 
@@ -46,7 +46,7 @@ Each brand color has three variants: `main`, `light` and `dark`. Their use is au
 
 We will only display the main swatches here.
 
-| Name | Value | Swatch |
+| Name | Value | |
 | --- | --- | --- |
 | `$primary` | `#D29132` | <span class="colorBlock fill--primary"></span> |
 | `$secondary` | `#0F2D55` | <span class="colorBlock fill--secondary"></span> |
@@ -60,7 +60,7 @@ Each feedback color has three variants: `main`, `light` and `dark`. Their use is
 
 We will only display the main swatches here.
 
-| Name | Value | Swatch |
+| Name | Value | |
 | --- | --- | --- |
 | `$success` | `#27AE60` | <span class="colorBlock fill--success"></span> |
 | `$info` | `#17A0CC` | <span class="colorBlock fill--info"></span> |

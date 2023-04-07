@@ -57,6 +57,8 @@
     padding: 12px 16px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
     border-left: 8px solid #D7D7DC;
     max-width: 600px;
   }
@@ -93,11 +95,4 @@
   p {
     max-width: 600px;
   }
-}
-
-.colorBlock {
-  display: block;
-  width: 20px;
-  height: 20px;
-  border-radius: 4px;
 }

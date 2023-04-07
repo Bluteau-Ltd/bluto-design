@@ -65,9 +65,9 @@ Change the text color (can be used on any element of the DOM).
 | `text--default` | <span class="body text--default">This is a default text</span> |
 | `text--alt` | <span class="body text--alt">This is an alternate text</span> |
 | `text--disabled` | <span class="body text--disabled">This is a disabled text</span> |
-| `text--contrast` | <span class="body text--contrast">This is a default contrast text</span> |
-| `text--contrastAlt` | <span class="body text--contrastAlt">This is an alternate contrast text</span> |
-| `text--contrastDisabled` | <span class="body text--contrastDisabled">This is a disabled contrast text</span> |
+| `text--contrast` | <span class="textBlock fill--black"><span class="body text--contrast">This is a default contrast text</span></span> |
+| `text--contrastAlt` | <span class="textBlock fill--black"><span class="body text--contrastAlt">This is an alternate contrast text</span></span> |
+| `text--contrastDisabled` | <span class="textBlock fill--black"><span class="body text--contrastDisabled">This is a disabled contrast text</span></span> |
 | `text--primary` | <span class="body text--primary">This is a primary text</span> |
 | `text--secondary` | <span class="body text--secondary">This is a secondary text</span> |
 | `text--success` | <span class="body text--success">This is a success text</span> |
