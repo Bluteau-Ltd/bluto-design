@@ -14,6 +14,8 @@ subtitle: "A collection of collapsible elements."
 
 ## Modifiers
 
+Add classes to the base class `accordion` to change the style of the component. There is also a modifier for the `accordion__item` element.
+
 ### Size
 
 When accordions are displayed in small block, you can use a dense variant of the componant.

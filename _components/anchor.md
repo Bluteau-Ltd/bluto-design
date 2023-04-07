@@ -4,7 +4,7 @@ title: "Anchor"
 subtitle: "Create a dynamic scroll to another part of the same page with an anchor link."
 ---
 
-Like buttons or tabs, anchors have two blocks: `anchor` and `anchors`. The former is the single component, the latter the wrapper for multiple instances of the component.
+Like buttons or tabs, this component has two blocks: `anchor` and `anchors`. The former is the single component, the latter the wrapper for multiple instances of the component.
 
 ## Elements
 

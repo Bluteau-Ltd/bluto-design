@@ -22,7 +22,7 @@ Add classes to the base class `` to change the style of the component.
 
 ### Variant
 
-| Class | Description |
+| Class | |
 | --- | --- |
 | `` | |
 

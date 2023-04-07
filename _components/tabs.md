@@ -4,7 +4,7 @@ title: "Tabs"
 subtitle: "Tabs are a way to divide content on mutliple sections on the same page and navigate between them."
 ---
 
-Like buttons or anchors, tabs have two blocks: `tab` and `tabs`. The former is the single component, the latter the wrapper for multiple instances of the component.
+Like buttons or anchors, this component has two blocks: `tab` and `tabs`. The former is the single component, the latter the wrapper for multiple instances of the component.
 
 > This only creates the style of the component, and is not used for javascript functionnality.
 
@@ -20,6 +20,8 @@ Like buttons or anchors, tabs have two blocks: `tab` and `tabs`. The former is t
 > `tab__target` is usually outside of the DOM structure of the `tabs` block.
 
 ## Modifiers
+
+Add classes to the base class `tabs` to change the style of the wrapper.
 
 ### Size
 

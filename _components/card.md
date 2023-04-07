@@ -20,6 +20,8 @@ subtitle: "Cards are surfaces that display content and actions for a single elem
 
 ## Modifiers
 
+Add classes to the base class `card` to change the style of the component.
+
 ### Size
 
 Overrides the default size of the card. This changes:
