@@ -10,9 +10,18 @@ collections:
   documentation:
     output: true
     permalink: /documentation/:path
+    order:
+      - tech-stack.md
+      - conventions.md
+      - file-structure.md
   utils:
     output: true
     permalink: /utils/:path
+    order:
+      - variables.md
+      - mixins.md
+      - global.md
+      - colours.md
   components:
     output: true
     permalink: /components/:path

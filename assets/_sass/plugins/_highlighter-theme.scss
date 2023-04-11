@@ -4,7 +4,7 @@
   font-size: 0.875rem;
   background-color: #1D2638;
   color: #EFF0F2;
-  padding: 2px 8px;
+  padding: 2px 6px;
   border-radius: 8px;
   width: 100%;
   
@@ -12,10 +12,14 @@
     background-color: #EFF0F2;
     color: #485061;
     border-radius: 4px;
+
+    a & {
+      color: #D29132;
+    }
   }
 
   > .highlight {
-    padding: 16px 12px; 
+    padding: 14px 14px; 
   }
 
   p &, 

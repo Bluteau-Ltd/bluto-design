@@ -1,7 +1,12 @@
 ---
 layout: "default"
+
 title: "Variables"
 ---
+
+## Spacing
+
+In order to have a consistent look and feel, all sizes and dimensions will be multiples of the `$int` variable. This variable is the base unit. It is equal to 8px.
 
 ## Colors
 
@@ -42,7 +47,7 @@ title: "Variables"
 
 ### Brand
 
-Each brand color has three variants: `main`, `light` and `dark`. Their use is automated by the styles when need (hover states for `button`, `alert` backgroud color , etc.).
+Each brand color has three variants: `main`, `light` and `dark` (the primary and secondary have another one, `lighter`, used for background colors). Their use is automated when needed (hover states for `button`, `alert` backgroud color , etc.).
 
 We will only display the main swatches here.
 
@@ -56,7 +61,7 @@ We will only display the main swatches here.
 
 These colors are used to convey feedback to the user for an action he has performed, to emphasise a piece of information, or to give information about the state of something.
 
-Each feedback color has three variants: `main`, `light` and `dark`. Their use is automated by the styles when need (hover states for `button`, `alert` backgroud color , etc.).
+Each feedback color has three variants: `main`, `light` and `dark`. Their use is automated when needed (hover states for `button`, `alert` backgroud color , etc.).
 
 We will only display the main swatches here.
 
@@ -92,7 +97,7 @@ For a full list of text modifiers.
 
 ## Breakpoints
 
-Breakpoints are only used for the [responsive]({% link _utils/mixins.md %}) mixins. You don't need to concern yourself with them as they are build-in the mixin already.
+Breakpoints are only used for the [responsive]({% link _utils/mixins.md %}#responsive) mixins. You don't need to concern yourself with them as they are build-in the mixin already.
 
 As a reference, their values are:
 

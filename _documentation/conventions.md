@@ -1,5 +1,6 @@
 ---
 layout: "default"
+
 title: "Conventions"
 subtitle: "Here are all the naming rules for css classes and scss files, and the syntactic conventions of css properties."
 ---
@@ -43,7 +44,7 @@ Try as much as possible to express modifiers with one word. If you need more tha
 
 In rare cases, the block class is not be the main parent container. In such cases, the main parent is an a element with the suffix `__wrapper`.
 
-Never use abbreviations (ie. never write img for image, or btn for button), except for sizes (sm, md, lg, etc.)
+Never use abbreviations (ie. never write img for image, or btn for button), except for sizes (sm, md, lg, etc.) and for some [global]({% link _utils/global.md %}) modifiers.
 
 ## Files naming
 
@@ -55,6 +56,6 @@ If you need to have multiple words in your file, separate them with a dash `-`.
 
 ## Syntax rules
 
-Always express sizes by multiplying the `$spacing` variable. 
+Always express sizes by multiplying the [`$int`]({% link _utils/variables.md %}#spacing) variable. 
 
 For fonts, use `rem` units.

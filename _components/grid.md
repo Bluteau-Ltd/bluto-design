@@ -35,15 +35,15 @@ Can only be applied to `grid`.
 
 Sets the spacing between `grid__item` elements. Can only be applied to `grid`.
 
-| Classes | Description
+| Classes | Description |
 | --- | --- |
-| `grid--spacing-X` | X can be a value between 1 to 12, one being the `$spacing` variable (8px), and the rest a multiple of that variable |
+| `grid--spacing-X` | X can be a value between 1 to 12, one being the [`$int`]({% link _utils/variables.md %}#spacing) variable, and the rest a multiple of that variable |
 
 ### Width
 
 Sets the width of `grid__item` elements. Can only be applied to `grid__item`.
 
-| Classes | Description
+| Classes | Description |
 | --- | --- |
 | `grid__item--X` | X can be a value between 1 to 12 |
 | `grid__item--smX` | Column width applied if wider than the `$mobile` breakpoint |

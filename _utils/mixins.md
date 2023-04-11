@@ -1,5 +1,6 @@
 ---
 layout: "default"
+
 title: "Mixins"
 ---
 
@@ -12,7 +13,7 @@ The responsive mixin works exactly like the bootstrap one, but is written slight
   - value can be `up` or `down`
     - `up` will be applied when wider than the chosen breakpoint
     - `down` will be applied when narrower than the chosen breakpoint
-  - breakpoint can be any of the [breakpoints variables]({% link _utils/variables.md %}) (without the `$` sign)
+  - breakpoint can be any of the [breakpoints variables]({% link _utils/variables.md %}#breakpoints) (without the `$` sign)
 
 **Example**
 

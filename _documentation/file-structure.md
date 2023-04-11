@@ -1,5 +1,6 @@
 ---
 layout: "default"
+
 title: "File structure"
 subtitle: "Every component file follows the same structure, related to BEM terminology, to make it understansable at first glance."
 ---
