@@ -40,13 +40,13 @@ The CSS styles are based on an adapted version of BEM terminology (for Block Ele
 
 ### Other conventions
 
-Try as much as possible to express modifiers with one word. If you need more than one word, we will use lower camel case (eg. `button--fullWidth`). Never use a single dash `-` to separate words.
+Try as much as possible to express modifiers with one word. If you need more than one word, use lower camel case (eg. `button--fullWidth`). Never use a single dash `-` to separate words if a modifier has multiple words.
 
-In rare cases, the block class is not be the main parent container. In such cases, the main parent is an a element with the suffix `__wrapper`.
+In some cases, multiple instances of the same block are contained in a parent container. In such cases, the parent container class is given the same class as the component block on the plural form (eg. `tabs` is the container of multiple `tab`).
 
-Never use abbreviations (ie. never write img for image, or btn for button), except for sizes (sm, md, lg, etc.) and for some [global]({% link _utils/global.md %}) modifiers.
+Never use abbreviations (ie. never write `img` for image, or `btn` for button), except for sizes (`sm`, `md`, `lg`, etc.) and for some [global]({% link _utils/global.md %}) classes.
 
-## Files naming
+## File naming
 
 All scss files start with an underscore `_`.
 
