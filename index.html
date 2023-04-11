@@ -14,22 +14,22 @@ layout: index
         <div class="grid__item grid__item--lg4  grid__item--md6">
           <h3>Documentation</h3>
           <p class="mb-2">This is where it starts. Those pages describe the technology used, and more importantly the different naming conventions and terminology.</p>
-          {% for page in site.documentation %}
-          <a href="{{ page.url }}">{{ page.title }}</a>
+          {% for p in site.documentation %}
+          <a href="{{ p.url }}">{{ p.title }}</a>
           {% endfor %}
         </div>
         <div class="grid__item grid__item--lg4  grid__item--md6">
           <h3>Utils</h3>
           <p class="mb-2">This section describes the higher hierarchy elements: variables, functions (mixins) and classes used widely throughout the app and not fixed to one component.</p>
-          {% for page in site.utils %}
-          <a href="{{ page.url }}">{{ page.title }}</a>
+          {% for p in site.utils %}
+          <a href="{{ p.url }}">{{ p.title }}</a>
           {% endfor %}
         </div>
         <div class="grid__item grid__item--lg4  grid__item--md12">
           <h3>Components</h3>
           <p class="mb-2">These pages describe how to use each components classes, their DOM structure and different style variants.</p>
-          {% for page in site.components %}
-          <a href="{{ page.url }}">{{ page.title }}</a>
+          {% for p in site.components %}
+          <a href="{{ p.url }}">{{ p.title }}</a>
           {% endfor %}
         </div>
       </div>

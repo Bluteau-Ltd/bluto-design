@@ -1,0 +1,8 @@
+.nav__item--active:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  background-color: #D29132;
+}
