@@ -6,9 +6,9 @@ title: "Tag"
 subtitle: "Tags are small snippets of short text giving information about the elements they are associated with (usually their state)."
 ---
 
-Like buttons or tabs, this component has two blocks: `tag` and `tags`. The former is the single component, the latter the wrapper for multiple instances of the component.
-
 ## Elements
+
+Like buttons or tabs, this component has two blocks: `tag` and `tags`. The former is the single component, the latter the wrapper for multiple instances of the component.
 
 | Class | Description |
 | --- | --- |

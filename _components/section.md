@@ -28,7 +28,7 @@ Sets the background color of the section. The default value is white. This autom
 | Classes |
 | --- |
 | `section--white` | <span class="colorBlock fill--white"></span> |
-| `section--primary` | <span class="colorBlock fill--main"></span> |
+| `section--primary` | <span class="colorBlock fill--primary"></span> |
 | `section--secondary` | <span class="colorBlock fill--secondary"></span> |
 | `section--secondaryLighter` | <span class="colorBlock fill--secondaryLighter"></span> |
 
@@ -38,11 +38,22 @@ Sets the background color of the section. The default value is white. This autom
 | --- | --- |
 | `section--fullWidth` | Display the section__content element on the full width of the page (e.g. [product carousel](https://www.bluto.co.uk/#products-carousel)) |
 
+### Width
+
+Applies only to `section__container`. Sets the max-width of the container (see example on Login page). This ensures consistency for pages where the content needs to be smaller.
+
+| Classes | Description |
+| --- | --- |
+| `section__container--laptop` | Limit the width of `section__container` to `1024px` |
+| `section__container--tablet` | Limit the width of `section__container` to `768px` |
+| `section__container--mobile` | Limit the width of `section__container` to `568px` |
+| `section__container--mobileSm` | Limit the width of `section__container` to `350px` |
+
 ## Examples
 
 ```html
 <div class="section">
-  <div class="section__container">
+  <div class="section__container section__container--mobile">
     <div class="section__header">
       <div class="section__title"></div>
       <div class="section__subtitle"></div>

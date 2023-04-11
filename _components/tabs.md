@@ -6,11 +6,11 @@ title: "Tabs"
 subtitle: "Tabs are a way to divide content on mutliple sections on the same page and navigate between them."
 ---
 
+## Elements
+
 Like buttons or anchors, this component has two blocks: `tab` and `tabs`. The former is the single component, the latter the wrapper for multiple instances of the component.
 
 > This only creates the style of the component, and is not used for javascript functionnality.
-
-## Elements
 
 | Class | Description |
 | --- | --- |

@@ -8,10 +8,12 @@ subtitle: "Component for every call-to-action."
 
 ## Elements
 
+Like anchors or tabs, this component has two blocks: `button` and `buttons`. The former is the single component, the latter the wrapper for multiple instances of the component.
+
 | Class | Description |
 | --- | --- |
+| `buttons` | Container of multiple buttons, handles spacing, alignement and responsive behaviour |
 | `button` | Main element |
-| `button__wrapper` | Container of multiple buttons, handles spacing, alignement and responsive behaviour |
 | `button__inner` | Only used for `button--menu` variant, creates the middle line of the menu icon |
 
 ## Modifiers
@@ -61,6 +63,22 @@ Changes button color. Which element is colored (background, text, icon, etc.) wi
 | `button--black` | <a href="" class="button button--black">Black</a> |
 | `button--instagram` | <a href="" class="button button--instagram">Instagram</a> |
 | `button--facebook` | <a href="" class="button button--facebook">Facebook</a> |
+
+### Direction
+
+Only applies to the `buttons` block.
+
+| Class | Design |
+| --- | --- |
+| `buttons--portrait` | Overrides the default stacking of buttons |
+
+### Wrap
+
+Only applies to the `buttons` block.
+
+| Class | Design |
+| --- | --- |
+| `buttons--wrap` | Set buttons on multiple lines if the block is wider than the parent container width |
 
 ## Examples
 
