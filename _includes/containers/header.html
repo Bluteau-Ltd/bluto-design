@@ -3,7 +3,7 @@
 <head>
 
   <meta name="robots" content="noindex, follow"/>
-  <title>{{ site.title }} | {{ page.title }}</title>
+  <title>{{ site.title }}{% if page.slug != index %} | {{ page.title }}{% endif %}</title>
 
   <!-- meta -->
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,7 +17,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="https://www.bluto.co.uk/css/app.css">
-  <!-- <link rel="stylesheet" type="text/css" href="{{ site.base-url }}/assets/offline/bluto.css"> -->
+  <link rel="stylesheet" type="text/css" href="{{ site.base-url }}/assets/offline/bluto.css">
   <link rel="stylesheet" type="text/css" href="{{ site.base-url }}/assets/stylesheets/style.css" />
   
   <!-- favicon -->
@@ -38,4 +38,4 @@
 
 {% include components/navbar.html %}
 
-<div class="page">
+<div class="page {% if page.slug == index %} page-index{% endif %}">

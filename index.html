@@ -1,3 +1,40 @@
 ---
 layout: index
 ---
+
+<div class="section">
+  <div class="section__container">
+    <div class="section__header">
+      <h1 class="h2 section__title">Bluto style documentation</h1>
+      <p class="subtitle section__subtitle">Here is the Bluto style guide and CSS documentation. You will find information on the different classes and components,
+      and how to use them.</p>
+    </div>
+    <div class="section__content">
+      <div class="grid grid--spacing-5 editor">
+        <div class="grid__item grid__item--lg4  grid__item--md6">
+          <h3>Documentation</h3>
+          <p class="mb-2">This is where it starts. Those pages describe the technology used, and more importantly the different naming conventions and terminology.</p>
+          {% for page in site.documentation %}
+          <a href="{{ page.url }}">{{ page.title }}</a>
+          {% endfor %}
+        </div>
+        <div class="grid__item grid__item--lg4  grid__item--md6">
+          <h3>Utils</h3>
+          <p class="mb-2">This section describes the higher hierarchy elements: variables, functions (mixins) and classes used widely throughout the app and not fixed to one component.</p>
+          {% for page in site.utils %}
+          <a href="{{ page.url }}">{{ page.title }}</a>
+          {% endfor %}
+        </div>
+        <div class="grid__item grid__item--lg4  grid__item--md12">
+          <h3>Components</h3>
+          <p class="mb-2">These pages describe how to use each components classes, their DOM structure and different style variants.</p>
+          {% for page in site.components %}
+          <a href="{{ page.url }}">{{ page.title }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- .section<.section__container>.section__content -->

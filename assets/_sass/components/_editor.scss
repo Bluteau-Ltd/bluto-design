@@ -91,8 +91,20 @@
     &:not(:first-child) { margin-top: 3rem; }
     &:not(:last-child) { margin-bottom: 2rem; }
   }
-
+  
   p {
     max-width: 600px;
+  }
+}
+
+.page-index {
+  
+  .editor {
+    
+    h3 {
+      border-bottom: 2px solid #F2F3F4;
+      padding-bottom: 0.75rem;
+      margin-bottom: 0;
+    }
   }
 }
