@@ -1,7 +1,7 @@
 ---
 layout: "default"
 
-title: "Global"
+title: "Global classes"
 subtitle: "A bit like Tailwind CSS, you can use classes to apply properties to an element. This can be useful when creating a custom class is a bit too much."
 ---
 

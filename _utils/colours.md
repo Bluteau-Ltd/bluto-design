@@ -1,7 +1,7 @@
 ---
 layout: "default"
 
-title: "Colours"
+title: "Colour classes"
 subtitle: "A bit like Tailwind CSS, you can use classes to apply a custom background color or stroke colour to an element."
 ---
 
@@ -80,13 +80,6 @@ The stroke width is 1px.
 | `stroke--20` | <span class="colorBlock stroke--grey20"></span> |
 | `stroke--10` | <span class="colorBlock stroke--grey10"></span> |
 | `stroke--5` | <span class="colorBlock stroke--grey5"></span> |
-
-### Background
-
-| Class | |
-| --- | --- |
-| `stroke--default` | <span class="colorBlock stroke--default"></span> |
-| `stroke--paper` | <span class="colorBlock stroke--paper"></span> |
 
 ### Brand
 
