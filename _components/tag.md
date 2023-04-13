@@ -25,9 +25,9 @@ Override the default size of the component.
 
 | Class | |
 | --- | --- |
-| `tag--sm` | <span style="display: block;" class="tag tag--sm tag--primary">Small</span> |
-| | <span style="display: block;" class="tag tag--primary">Medium (default)</span> |
-| `tag--lg` | <span style="display: block;" class="tag tag--lg tag--primary">Large</span> |
+| `tag--sm` | <span class="tag tag--sm tag--primary">Small</span> |
+| | <span class="tag tag--primary">Medium (default)</span> |
+| `tag--lg` | <span class="tag tag--lg tag--primary">Large</span> |
 
 ### Color
 
@@ -35,12 +35,12 @@ Change the tag color.
 
 | Class | |
 | --- | --- |
-| `tag--primary` | <span style="display: block;" class="tag tag--primary">Primary</span> |
-| `tag--secondary` | <span style="display: block;" class="tag tag--secondary">Secondary</span> |
-| `tag--success` | <span style="display: block;" class="tag tag--success">Success</span> |
-| `tag--info` | <span style="display: block;" class="tag tag--info">Info</span> |
-| `tag--warning` | <span style="display: block;" class="tag tag--warning">Warning</span> |
-| `tag--error` | <span style="display: block;" class="tag tag--error">Error</span> |
+| `tag--primary` | <span class="tag tag--primary">Primary</span> |
+| `tag--secondary` | <span class="tag tag--secondary">Secondary</span> |
+| `tag--success` | <span class="tag tag--success">Success</span> |
+| `tag--info` | <span class="tag tag--info">Info</span> |
+| `tag--warning` | <span class="tag tag--warning">Warning</span> |
+| `tag--error` | <span class="tag tag--error">Error</span> |
 
 ### Direction
 

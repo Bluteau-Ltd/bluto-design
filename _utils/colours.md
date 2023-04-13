@@ -12,7 +12,7 @@ subtitle: "A bit like Tailwind CSS, you can use classes to apply a custom backgr
 | Class | |
 | --- | --- |
 | `fill--black` | <span class="colorBlock fill--black"></span> |
-| `fill--white` | <span class="colorBlock fill--white"></span> |
+| `fill--white` | <span class="colorBlock fill--white stroke--grey20"></span> |
 
 ### Grey
 
@@ -33,7 +33,7 @@ subtitle: "A bit like Tailwind CSS, you can use classes to apply a custom backgr
 
 | Class | |
 | --- | --- |
-| `fill--default` | <span class="colorBlock fill--default"></span> |
+| `fill--default` | <span class="colorBlock fill--default stroke--grey20"></span> |
 | `fill--paper` | <span class="colorBlock fill--paper"></span> |
 
 ### Brand

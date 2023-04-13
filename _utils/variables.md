@@ -17,7 +17,7 @@ In order to have a consistent look and feel, all sizes and dimensions will be mu
 | Name | Value | |
 | --- | --- | --- |
 | `$black` | `#000A1E` | <span class="colorBlock fill--black"></span> |
-| `$white` | `#FFFFFF` | <span class="colorBlock fill--white"></span> |
+| `$white` | `#FFFFFF` | <span class="colorBlock fill--white stroke--grey20"></span> |
 
 **Greys**
 

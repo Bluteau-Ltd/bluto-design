@@ -27,7 +27,7 @@ Sets the background color of the section. The default value is white. This autom
 
 | Classes |
 | --- |
-| `section--white` | <span class="colorBlock fill--white"></span> |
+| `section--white` | <span class="colorBlock fill--white stroke--grey20"></span> |
 | `section--primary` | <span class="colorBlock fill--primary"></span> |
 | `section--secondary` | <span class="colorBlock fill--secondary"></span> |
 | `section--secondaryLighter` | <span class="colorBlock fill--secondaryLighter"></span> |

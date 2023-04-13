@@ -6,7 +6,7 @@ title: "Text"
 subtitle: "This is a special component. Elements do not follow the BEM nomenclature (but the modifiers do). Each elements has a disctinct class name."
 ---
 
-> For this component, elements do not follow the BEM nomenclature (but modifiers do). Elements all have unique classes names, each class name corresponding to a different text style. Modifiers can be applied to any element.
+For this component, elements do not follow the BEM nomenclature (but modifiers do). Elements all have unique classes names, each class name corresponding to a different text style. Modifiers can be applied to any element, not necessarily text.
 
 ## Elements
 
@@ -33,20 +33,21 @@ subtitle: "This is a special component. Elements do not follow the BEM nomenclat
 
 Overrides the font style (can be used on any element of the DOM).
 
-| Classes | Description |
+| Classes | |
 | --- | --- |
-| `text--underline` | Add a line below the text |
-| `text--italic` |  |
+| `text--underline` | <span class="text--underline">Add a line below the text</span> |
+| `text--italic` | <span class="text--italic">Slant the text</span> |
+| `text--strikeThrough` | <span class="text--strikeThrough">Add a line through the text</span> |
 
 ### Weight
 
 Overrides the font weigth (can be used on any element of the DOM).
 
-| Classes |
-| --- |
-| `text--light` |
-| `text--regular` |
-| `text--bold` |
+| Classes | |
+| --- | --- |
+| `text--light` | <span class="text--light">Text with a light weight</span> |
+| `text--regular` | <span class="text--regular">Text with a regular weight (default)</span> |
+| `text--bold` | <span class="text--bold">Text with a bold weight</span> |
 
 ### Alignement
 
@@ -54,9 +55,9 @@ Change the text aligment (can be used on any element of the DOM).
 
 | Classes |
 | --- |
-| `text--left` |
-| `text--center` |
-| `text--right` |
+| `text--left` | <span style="display: block;" class="text--left">Left text</span> |
+| `text--center` | <span style="display: block;" class="text--center">Centered text</span> |
+| `text--right` | <span style="display: block;" class="text--right">Right text</span> |
 
 ### Color
 
