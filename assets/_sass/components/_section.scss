@@ -1,5 +1,9 @@
 .section {
   text-align: left;
+
+  &__container {
+    position: relative;
+  }
   
   &__header,
   &__subtitle {

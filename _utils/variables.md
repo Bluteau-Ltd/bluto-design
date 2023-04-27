@@ -16,23 +16,23 @@ In order to have a consistent look and feel, all sizes and dimensions will be mu
 
 | Name | Value | |
 | --- | --- | --- |
-| `$black` | `#000A1E` | <span class="colorBlock fill--black"></span> |
-| `$white` | `#FFFFFF` | <span class="colorBlock fill--white stroke--grey20"></span> |
+| `$black` | `#000A1E` | <span class="docs__colorBlock fill--black"></span> |
+| `$white` | `#FFFFFF` | <span class="docs__colorBlock fill--white stroke--grey20"></span> |
 
 **Greys**
 
 | Name | Value | |
 | --- | --- | --- |
-| `$grey-90` | `#1D2638` | <span class="colorBlock fill--grey90"></span> |
-| `$grey-80` | `#323B4D` | <span class="colorBlock fill--grey80"></span> |
-| `$grey-70` | `#485061` | <span class="colorBlock fill--grey70"></span> |
-| `$grey-60` | `#626A7A` | <span class="colorBlock fill--grey60"></span> |
-| `$grey-50` | `#888F9E` | <span class="colorBlock fill--grey50"></span> |
-| `$grey-40` | `#B4B9C2` | <span class="colorBlock fill--grey40"></span> |
-| `$grey-30` | `#CBCFD6` | <span class="colorBlock fill--grey30"></span> |
-| `$grey-20` | `#E2E4E9` | <span class="colorBlock fill--grey20"></span> |
-| `$grey-10` | `#EEF2F4` | <span class="colorBlock fill--grey10"></span> |
-| `$grey-5` | `#F6F8F9` | <span class="colorBlock fill--grey5"></span> |
+| `$grey-90` | `#1D2638` | <span class="docs__colorBlock fill--grey90"></span> |
+| `$grey-80` | `#323B4D` | <span class="docs__colorBlock fill--grey80"></span> |
+| `$grey-70` | `#485061` | <span class="docs__colorBlock fill--grey70"></span> |
+| `$grey-60` | `#626A7A` | <span class="docs__colorBlock fill--grey60"></span> |
+| `$grey-50` | `#888F9E` | <span class="docs__colorBlock fill--grey50"></span> |
+| `$grey-40` | `#B4B9C2` | <span class="docs__colorBlock fill--grey40"></span> |
+| `$grey-30` | `#CBCFD6` | <span class="docs__colorBlock fill--grey30"></span> |
+| `$grey-20` | `#E2E4E9` | <span class="docs__colorBlock fill--grey20"></span> |
+| `$grey-10` | `#EEF2F4` | <span class="docs__colorBlock fill--grey10"></span> |
+| `$grey-5` | `#F6F8F9` | <span class="docs__colorBlock fill--grey5"></span> |
 
 **Text**
 
@@ -41,9 +41,9 @@ In order to have a consistent look and feel, all sizes and dimensions will be mu
 | `$text` | `$black` | <span class="body text--default">This is a default text</span> |
 | `$text-alt` | `$grey-60` | <span class="body text--alt">This is an alternate text</span> |
 | `$text-disabled` | `rgba($text, 0.4)` | <span class="body text--disabled">This is a disabled text</span> |
-| `$text-contrast` | `$white` | <span class="textBlock fill--black"><span class="body text--contrast">This is a default contrast text</span></span> |
-| `$text-contrast-alt` | `$grey-40` | <span class="textBlock fill--black"><span class="body text--contrastAlt">This is an alternate contrast text</span></span> |
-| `$text-contrast-disabled` | `rgba($text, 0.4)` | <span class="textBlock fill--black"><span class="body text--contrastDisabled">This is a disabled contrast text</span></span> |
+| `$text-contrast` | `$white` | <span class="docs__textBlock fill--black"><span class="body text--contrast">This is a default contrast text</span></span> |
+| `$text-contrast-alt` | `$grey-40` | <span class="docs__textBlock fill--black"><span class="body text--contrastAlt">This is an alternate contrast text</span></span> |
+| `$text-contrast-disabled` | `rgba($text, 0.4)` | <span class="docs__textBlock fill--black"><span class="body text--contrastDisabled">This is a disabled contrast text</span></span> |
 
 ### Brand
 
@@ -53,9 +53,9 @@ We will only display the main swatches here.
 
 | Name | Value | |
 | --- | --- | --- |
-| `$primary` | `#D29132` | <span class="colorBlock fill--primary"></span> |
-| `$secondary` | `#0F2D55` | <span class="colorBlock fill--secondary"></span> |
-| `$highlight` | `#FFDC46` | <span class="colorBlock fill--highlight"></span> |
+| `$primary` | `#D29132` | <span class="docs__colorBlock fill--primary"></span> |
+| `$secondary` | `#0F2D55` | <span class="docs__colorBlock fill--secondary"></span> |
+| `$highlight` | `#FFDC46` | <span class="docs__colorBlock fill--highlight"></span> |
 
 ### Feedback
 
@@ -67,10 +67,10 @@ We will only display the main swatches here.
 
 | Name | Value | |
 | --- | --- | --- |
-| `$success` | `#27AE60` | <span class="colorBlock fill--success"></span> |
-| `$info` | `#17A0CC` | <span class="colorBlock fill--info"></span> |
-| `$warning` | `#FFDC46` | <span class="colorBlock fill--warning"></span> |
-| `$error` | `#EB5757` | <span class="colorBlock fill--error"></span> |
+| `$success` | `#27AE60` | <span class="docs__colorBlock fill--success"></span> |
+| `$info` | `#17A0CC` | <span class="docs__colorBlock fill--info"></span> |
+| `$warning` | `#FFDC46` | <span class="docs__colorBlock fill--warning"></span> |
+| `$error` | `#EB5757` | <span class="docs__colorBlock fill--error"></span> |
 
 ## Typography
 

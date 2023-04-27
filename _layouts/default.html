@@ -15,6 +15,9 @@ layout: compress
       <p class="section__subtitle">{{ page.subtitle }}</p>
       {% endif %}
     </div>
+    {% if page.example %}
+    <div class="docs__example">{{ page.example }}</div>
+    {% endif %}
   </div>
 </div>
 

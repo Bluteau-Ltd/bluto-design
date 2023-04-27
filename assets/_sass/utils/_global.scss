@@ -1,11 +1,21 @@
-.colorBlock,
-.textBlock {
-  display: block;
-  border-radius: 4px;
-  padding: 0 4px;
-}
+.docs {
 
-.colorBlock {
-  width: 20px;
-  height: 20px;
+  &__colorBlock,
+  &__textBlock {
+    display: block;
+    border-radius: 4px;
+    padding: 0 4px;
+  }
+  
+  &__colorBlock {
+    width: 20px;
+    height: 20px;
+  }
+  
+  &__example {
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+  }
 }

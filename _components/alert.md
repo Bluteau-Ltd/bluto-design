@@ -4,6 +4,16 @@ layout: "default"
 label: "Feedback"
 title: "Alert"
 subtitle: "An alert (or snackbar, toast message, etc.) component. Used to display feedback to the user after an action, but also to emphasise an element on a page (for a notice for intance)."
+example: |-
+  <div class="alert alert--notice alert--success">
+    <p class="alert__title">Your order has been updated</p>
+    <button type="button" class="alert__close"></button>
+  </div>
+  <div class="alert alert--notice alert--warning mt-1">
+    <p class="alert__title">There was an issue with your order</p>
+    <p class="alert__subtitle">Please retry later or contact us if the problem persist</p>
+    <button type="button" class="alert__close"></button>
+  </div>
 ---
 
 ## Elements
