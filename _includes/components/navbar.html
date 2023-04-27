@@ -10,7 +10,7 @@
         </span>
       </a>
     </div>
-    <div class="navbar__nav nav">
+    <div class="navbar__main nav">
       <div class="nav__container">
         <div class="nav__items">
           <div class="nav__item {% if page.layout == "index" %}nav__item--active{% endif %}">
@@ -19,30 +19,33 @@
           <div class="nav__item {% if page.url contains "documentation" %}nav__item--active{% endif %} dropdown">
             <a class="nav__trigger" href="/" id="dropdown-documentation" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span>Documentation</span>
+              {% svg /assets/icons/chevron-down.svg %}
             </a>
-            <div class="subnav dropdown-menu" aria-labelledby="dropdown-documentation">
+            <div class="nav__dropdown menu dropdown-menu" aria-labelledby="dropdown-documentation">
               {% for p in site.documentation %}
-              <a class="subnav__item {% if p.url == page.url %}subnav__item--active{% endif %}" href="{{ p.url }}">{{ p.title }}</a>
+              <a class="menu__item {% if p.url == page.url %}menu__item--active{% endif %}" href="{{ p.url }}">{{ p.title }}</a>
               {% endfor %}
             </div>
           </div>
           <div class="nav__item {% if page.url contains "utils" %}nav__item--active{% endif %} dropdown">
             <a class="nav__trigger" href="/" id="dropdown-utils" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span>Utils</span>
+              {% svg /assets/icons/chevron-down.svg %}
             </a>
-            <div class="subnav dropdown-menu" aria-labelledby="dropdown-utils">
+            <div class="nav__dropdown menu dropdown-menu" aria-labelledby="dropdown-utils">
               {% for p in site.utils %}
-              <a class="subnav__item {% if p.url == page.url %}subnav__item--active{% endif %}" href="{{ p.url }}">{{ p.title }}</a>
+              <a class="menu__item {% if p.url == page.url %}menu__item--active{% endif %}" href="{{ p.url }}">{{ p.title }}</a>
               {% endfor %}
             </div>
           </div>
           <div class="nav__item {% if page.url contains "components" %}nav__item--active{% endif %} dropdown">
             <a class="nav__trigger" href="/" id="dropdown-components" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span>Components</span>
+              {% svg /assets/icons/chevron-down.svg %}
             </a>
-            <div class="subnav dropdown-menu" aria-labelledby="dropdown-components">
+            <div class="nav__dropdown menu dropdown-menu" aria-labelledby="dropdown-components">
               {% for p in site.components %}
-              <a class="subnav__item {% if p.url == page.url %}subnav__item--active{% endif %}" href="{{ p.url }}">{{ p.title }}</a>
+              <a class="menu__item {% if p.url == page.url %}menu__item--active{% endif %}" href="{{ p.url }}">{{ p.title }}</a>
               {% endfor %}
             </div>
           </div>

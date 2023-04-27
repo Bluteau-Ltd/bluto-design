@@ -26,9 +26,12 @@ collections:
     output: true
     permalink: /components/:path
 
-# Build settings
+# plugins
 plugins:
-  - jekyll-feed
+  - jekyll-inline-svg
+# svg
+svg:
+  optimize: true
 # sass
 sass:
   sass_dir: assets/_sass
