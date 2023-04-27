@@ -4,6 +4,8 @@ layout: "default"
 # label: ""
 title: "Template"
 # subtitle: ""
+# example: |-
+  # <div></div>
 ---
 
 ## Elements
