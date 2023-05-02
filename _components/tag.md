@@ -4,6 +4,12 @@ layout: "default"
 label: "Data"
 title: "Tag"
 subtitle: "Tags are small snippets of short text giving information about the elements they are associated with (usually their state)."
+example: |-
+  <div class="tags">
+    <p class="tag tag--primary">New order</p>
+    <p class="tag tag--secondary">New customer</p>
+    <p class="tag tag--success">Paid</p>
+  </div>
 ---
 
 ## Elements

@@ -4,6 +4,25 @@ layout: "default"
 label: "Mixins"
 title: "Text"
 subtitle: "This is a special component. Elements do not follow the BEM nomenclature (but the modifiers do). Each elements has a disctinct class name."
+example: |-
+  <div class="card text--right">
+    <div class="card__content">
+      <p class="body">
+        <span class="h2">To write</span>
+        <span class="h6">rich</span>
+        <span class="caption">yet consistent</span>
+      </p>
+      <p class="body">
+        <span class="text--strikeThrough">texts</span>
+        <span class="text--italic">you have</span>
+        <span class="text--bold">to</span>
+        <span class="subtitle">create</span>
+      </p>
+      <p class="body">
+        <span class="h4 text--underline">a robust style guide</span>
+      </p>
+    </div>
+  </div>
 ---
 
 For this component, elements do not follow the BEM nomenclature (but modifiers do). Elements all have unique classes names, each class name corresponding to a different text style. Modifiers can be applied to any element, not necessarily text.

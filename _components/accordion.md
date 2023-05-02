@@ -4,6 +4,17 @@ layout: "default"
 label: "Navigation"
 title: "Accordion"
 subtitle: "A collection of collapsible elements."
+example: |-
+  <div class="docs__accordion accordion" data-module="collapse">
+    <div class="js-collapse accordion__item">
+      <p class="js-collapse-button accordion__header">Where do you deliver?</p>
+      <div class="js-collapse-content accordion__content">We operate in the following postcodes: <strong>W8, W9, W10, W11, W12, W14</strong></div>
+    </div>
+    <div class="js-collapse accordion__item">
+      <p class="js-collapse-button accordion__header">When do you deliver?</p>
+      <div class="js-collapse-content accordion__content">Here are our opening times: <strong>06:00–13:00</strong></div>
+    </div>
+  </div>
 ---
 
 ## Elements

@@ -37,32 +37,32 @@ Add a custom margin or padding to an element.
 
 - The first letter specifies margin (`m`) or padding (`p`)
 - The second letter (if any) the direction.
-- The number modifier is a multiple of the [`$int`]({% link _utils/variables.md %}#spacing) variable. 
+- The number modifier is a multiple of the [`$spacing`]({% link _utils/variables.md %}#spacing) variable. 
 
 | Class | Description |
 | --- | --- |
-| `m-05` | Add a margin around the element of half the `$int` variable |
+| `m-05` | Add a margin around the element of half the `$spacing` variable |
 | `m-X` | Add a margin around the element (X can be a value between 1 to 20) |
-| `mt-05` | Add a top margin of half the `$int` variable |
+| `mt-05` | Add a top margin of half the `$spacing` variable |
 | `mt-X` | Add a top margin (X can be a value between 1 to 20) |
-| `mr-05` | Add a right margin of half the `$int` variable |
+| `mr-05` | Add a right margin of half the `$spacing` variable |
 | `mr-X` | Add a right margin (X can be a value between 1 to 20) |
-| `mb-05` | Add a bottom margin of half the `$int` variable |
+| `mb-05` | Add a bottom margin of half the `$spacing` variable |
 | `mb-X` | Add a bottom margin (X can be a value between 1 to 20) |
-| `ml-05` | Add a left margin of half the `$int` variable |
+| `ml-05` | Add a left margin of half the `$spacing` variable |
 | `ml-X` | Add a left margin (X can be a value between 1 to 20) |
 
 | Class | Description |
 | --- | --- |
-| `p-05` | Add a margin around the element of half the `$int` variable |
+| `p-05` | Add a margin around the element of half the `$spacing` variable |
 | `p-X` | Add a margin around the element (X can be a value between 1 to 20) |
-| `pt-05` | Add a top margin of half the `$int` variable |
+| `pt-05` | Add a top margin of half the `$spacing` variable |
 | `pt-X` | Add a top margin (X can be a value between 1 to 20) |
-| `pr-05` | Add a right margin of half the `$int` variable |
+| `pr-05` | Add a right margin of half the `$spacing` variable |
 | `pr-X` | Add a right margin (X can be a value between 1 to 20) |
-| `pb-05` | Add a bottom margin of half the `$int` variable |
+| `pb-05` | Add a bottom margin of half the `$spacing` variable |
 | `pb-X` | Add a bottom margin (X can be a value between 1 to 20) |
-| `pl-05` | Add a left margin of half the `$int` variable |
+| `pl-05` | Add a left margin of half the `$spacing` variable |
 | `pl-X` | Add a left margin (X can be a value between 1 to 20) |
 
 ### Width

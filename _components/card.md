@@ -4,6 +4,23 @@ layout: "default"
 label: "Layout"
 title: "Card"
 subtitle: "Cards are surfaces that display content and actions for a single element. They are one of the most used layout elements."
+example: |-
+  <div class="docs__card card">
+    <div class="card__header">
+      <h3 class="card__title">Tradition baguette</h3>
+      <p class="card__subtitle">The reason why we wake up every morning</p>
+    </div>
+    <div class="card__content">
+      <p class="body">Perfect with every meal, from breakfast to dinner. For us, the best is to mop up the juice or the sauce at the end of your meal!</p>
+    </div>
+    <div class="card__actions">
+      <div>
+        <button class="button button--error"></button>
+        <button class="button button--grey"></button>
+      </div>
+      <button class="button button--secondary"></button>
+    </div>
+  </div>
 ---
 
 ## Elements

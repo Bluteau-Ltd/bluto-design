@@ -1,8 +1,10 @@
-.nav__item--active:before {
+.nav__item:hover:before {
   content: "";
   position: absolute;
-  bottom: 0;
-  height: 4px;
+  bottom: 1rem;
+  height: 2rem;
   width: 100%;
-  background-color: #D29132;
+  background-color: #eef1f2;
+  border-radius: 0.5rem;
+  z-index: -1;
 }

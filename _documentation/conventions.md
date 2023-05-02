@@ -56,6 +56,6 @@ If you need to have multiple words in your file, separate them with a dash `-`.
 
 ## Syntax rules
 
-Always express sizes by multiplying the [`$int`]({% link _utils/variables.md %}#spacing) variable. 
+Always express sizes by multiplying the [`$spacing`]({% link _utils/variables.md %}#spacing) variable. 
 
 For fonts, use `rem` units.

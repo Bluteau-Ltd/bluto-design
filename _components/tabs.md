@@ -4,6 +4,9 @@ layout: "default"
 label: "Navigation"
 title: "Tabs"
 subtitle: "Tabs are a way to divide content on mutliple sections on the same page and navigate between them."
+example: |-
+  <div>
+  </div>
 ---
 
 ## Elements

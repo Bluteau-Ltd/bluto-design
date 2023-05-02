@@ -4,6 +4,9 @@ layout: "default"
 label: "Layout"
 title: "Grid"
 subtitle: "Layout component to create column based grid structure like bootstrap."
+example: |-
+  <div>
+  </div>
 ---
 
 - Based on a 12 column grid
@@ -37,7 +40,7 @@ Sets the spacing between `grid__item` elements. Can only be applied to `grid`.
 
 | Classes | Description |
 | --- | --- |
-| `grid--spacing-X` | X can be a value between 1 to 12, one being the [`$int`]({% link _utils/variables.md %}#spacing) variable, and the rest a multiple of that variable |
+| `grid--spacing-X` | X can be a value between 1 to 12, one being the [`$spacing`]({% link _utils/variables.md %}#spacing) variable, and the rest a multiple of that variable |
 
 ### Width
 

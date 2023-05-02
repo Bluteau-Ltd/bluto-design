@@ -6,7 +6,7 @@ title: "Variables"
 
 ## Spacing
 
-In order to have a consistent look and feel, all sizes and dimensions will be multiples of the `$int` variable. This variable is the base unit. It is equal to 8px.
+In order to have a consistent look and feel, all sizes and dimensions will be multiples of the `$spacing` variable. This variable is the base unit. It is equal to 8px.
 
 ## Colors
 

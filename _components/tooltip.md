@@ -4,6 +4,11 @@ layout: "default"
 label: "Feedback"
 title: "Tooltip"
 subtitle: "Add a tooltip to an element to give a bit of information."
+example: |-
+  <div class="tooltip">
+    <p class="tag tag--lg tag--primary">Hover me</p>
+    <span class="tooltip__content">This is a tooltip</span>
+  </div>
 ---
 
 Use with caution, as tooltips are not the most accessible components. They are tricky for keyboard users and do not display on touch devices.
