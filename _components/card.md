@@ -8,17 +8,11 @@ example: |-
   <div class="docs__card card">
     <div class="card__header">
       <h3 class="card__title">Tradition baguette</h3>
-      <p class="card__subtitle">The reason why we wake up every morning</p>
-    </div>
-    <div class="card__content">
-      <p class="body">Perfect with every meal, from breakfast to dinner. For us, the best is to mop up the juice or the sauce at the end of your meal!</p>
+      <p class="card__subtitle">The reason why we wake up every morning.</p>
     </div>
     <div class="card__actions">
-      <div>
-        <button class="button button--error"></button>
-        <button class="button button--grey"></button>
-      </div>
-      <button class="button button--secondary"></button>
+      <button class="button button--sm button--grey">Back</button>
+      <button class="button button--sm button--secondary">Next</button>
     </div>
   </div>
 ---

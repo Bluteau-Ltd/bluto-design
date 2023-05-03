@@ -5,7 +5,22 @@ label: "Layout"
 title: "Grid"
 subtitle: "Layout component to create column based grid structure like bootstrap."
 example: |-
-  <div>
+  <div class="docs__grid grid grid--spacing-1 grid--column">
+    <div class="grid__item"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
+    <div class="grid grid--spacing-1 grid--jc-start grid__item">
+      <div class="grid__item grid__item--4"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
+      <div class="grid__item grid__item--2"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
+      <div class="grid__item grid__item--6"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
+    </div>
+    <div class="grid grid--spacing-1 grid--jc-start grid__item">
+      <div class="grid__item grid__item--4"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
+      <div class="grid__item grid__item--8"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
+    </div>
+    <div class="grid grid--spacing-1 grid--jc-start grid__item">
+      <div class="grid__item grid__item--3"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
+      <div class="grid__item grid__item--3"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
+      <div class="grid__item grid__item--3"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
+    </div>
   </div>
 ---
 

@@ -40,4 +40,4 @@
 
 {% include components/navbar.html %}
 
-<div class="page {% if page.slug == index %} page-index{% endif %}">
+<div class="page{% if page.slug == index %} page-index{% else %} page--{{ page.slug }}{% endif %}">

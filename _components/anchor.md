@@ -5,7 +5,9 @@ label: "Navigation"
 title: "Anchor"
 subtitle: "Create a dynamic scroll to another part of the same page with an anchor link."
 example: |-
-  <div>
+  <div class="docs__anchors anchors">
+    <div class="anchor__wrapper"><a class="anchor" href="#elements">Elements</a></div>
+    <div class="anchor__wrapper"><a class="anchor" href="#examples">Examples</a></div>
   </div>
 ---
 

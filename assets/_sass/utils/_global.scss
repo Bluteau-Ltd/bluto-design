@@ -37,7 +37,8 @@
 
   &__accordion,
   &__alert,
-  &__card {
+  &__card,
+  &__grid {
     width: 360px;
   }
 
@@ -46,5 +47,21 @@
     .accordion__item {
       background-color: #FFFFFF !important;
     }
+  }
+
+  &__anchors {
+
+    .anchor {
+      background-color: #FFFFFF;
+    }
+  }
+
+  &__link img {
+    height: 20px;
+    width: 20px;
+  }
+
+  &__tabs {
+    margin: 0;
   }
 }

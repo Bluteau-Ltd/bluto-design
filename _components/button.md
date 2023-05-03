@@ -20,7 +20,6 @@ Like anchors or tabs, this component has two blocks: `button` and `buttons`. The
 | --- | --- |
 | `buttons` | Container of multiple buttons, handles spacing, alignement and responsive behaviour |
 | `button` | Main element |
-| `button__inner` | Only used for `button--menu` variant, creates the middle line of the menu icon |
 
 ## Modifiers
 
@@ -45,10 +44,8 @@ Changes style depending on the button content.
 | Class | Description |
 | --- | --- |
 | | The default variant. You don't need to add an additional class | <a href="" class="button button--primary">Default</a> |
-| `button--icon` | Icon only buttons | <a href="" class="button button--primary button--icon"></a> |
-| `button--link` | Basic underlined links with no background color | <a href="" class="button--primary button--link">Link</a> |
-| `button--transparent` | Remove the background color and use the color value as text (or icon) color | <a href="" class="button button--primary button--transparent">Transparent</a> |
-| `button--menu` | Hamburger icon for mobile menu |
+| `button--icon` | Icon only button | <a href="" class="button button--primary button--icon"><img src="/assets/icons/chevron-down-white.svg"></a> |
+| `button--transparent` | Remove the background color and padding and use the color modifier for text (or icon) color | <a href="" class="button button--primary button--transparent">Transparent</a> |
 | `button--fullWidth` | Takes the full width of the container | <a href="" class="button button--primary button--fullWidth">Full width</a> |
 
 ### Color

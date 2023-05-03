@@ -5,7 +5,14 @@ label: "Navigation"
 title: "Tabs"
 subtitle: "Tabs are a way to divide content on mutliple sections on the same page and navigate between them."
 example: |-
-  <div>
+  <div class="card card--xs">
+    <div class="card__content">
+      <div class="docs__tabs tabs">
+        <button type="button" class="tabs__control is-active">Recurring</button>
+        <button type="button" class="tabs__control">One-off</button>
+        <button type="button" class="tabs__control">Gifts</button>
+      </div>
+    </div>
   </div>
 ---
 

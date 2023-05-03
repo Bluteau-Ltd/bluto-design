@@ -5,8 +5,7 @@ label: "Mixins"
 title: "Text"
 subtitle: "This is a special component. Elements do not follow the BEM nomenclature (but the modifiers do). Each elements has a disctinct class name."
 example: |-
-  <div class="card text--right">
-    <div class="card__content">
+  <div class="text--right">
       <p class="body">
         <span class="h2">To write</span>
         <span class="h6">rich</span>
@@ -21,7 +20,6 @@ example: |-
       <p class="body">
         <span class="h4 text--underline">a robust style guide</span>
       </p>
-    </div>
   </div>
 ---
 
