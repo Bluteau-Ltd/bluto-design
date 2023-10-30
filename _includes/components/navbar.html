@@ -1,6 +1,6 @@
 <nav class="section navbar">
   <div class="section__container">
-    <div class="navbar__button js-button-menu button--menu show--desktop">
+    <div class="navbar__button js-button-menu button--menu show-desktop">
       <i class="button__inner"></i>
     </div>
     <div class="navbar__logo">
@@ -23,7 +23,7 @@
             </a>
             <div class="nav__dropdown menu dropdown-menu" aria-labelledby="dropdown-documentation">
               {% for p in site.documentation %}
-              <a class="menu__item {% if p.url == page.url %}menu__item--active{% endif %}" href="{{ p.url }}">{{ p.title }}</a>
+              <a class="menu__item {% if p.url == page.url %}menu__item--active{% endif %}" href="{% link {{ p.path }} %}">{{ p.title }}</a>
               {% endfor %}
             </div>
           </div>
@@ -34,7 +34,7 @@
             </a>
             <div class="nav__dropdown menu dropdown-menu" aria-labelledby="dropdown-utils">
               {% for p in site.utils %}
-              <a class="menu__item {% if p.url == page.url %}menu__item--active{% endif %}" href="{{ p.url }}">{{ p.title }}</a>
+              <a class="menu__item {% if p.url == page.url %}menu__item--active{% endif %}" href="{% link {{ p.path }} %}">{{ p.title }}</a>
               {% endfor %}
             </div>
           </div>
@@ -45,7 +45,7 @@
             </a>
             <div class="nav__dropdown menu dropdown-menu" aria-labelledby="dropdown-components">
               {% for p in site.components %}
-              <a class="menu__item {% if p.url == page.url %}menu__item--active{% endif %}" href="{{ p.url }}">{{ p.title }}</a>
+              <a class="menu__item {% if p.url == page.url %}menu__item--active{% endif %}" href="{% link {{ p.path }} %}">{{ p.title }}</a>
               {% endfor %}
             </div>
           </div>

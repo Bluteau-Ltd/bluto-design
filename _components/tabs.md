@@ -8,9 +8,9 @@ example: |-
   <div class="card card--xs">
     <div class="card__content">
       <div class="docs__tabs tabs">
-        <button type="button" class="tabs__control is-active">Recurring</button>
-        <button type="button" class="tabs__control">One-off</button>
-        <button type="button" class="tabs__control">Gifts</button>
+        <button type="button" class="tab is-active">Recurring</button>
+        <button type="button" class="tab">One-off</button>
+        <button type="button" class="tab">Gifts</button>
       </div>
     </div>
   </div>

@@ -87,16 +87,16 @@ Only applies to the `buttons` block.
 
 ```html
 <div class="buttons">
-  <div class="button button--sm button--error">Cancel</div>
+  <a href="" class="button button--md button--error">Cancel</a>
   <div class="buttons">
-    <div class="button button--sm button--grey">Skip</div>
-    <div class="button button--sm button--secondary">Next</div>
+    <a href="" class="button button--md button--grey">Skip</a>
+    <a href="" class="button button--md button--secondary disabled">Next</a>
   </div>
 </div>
 ```
 
 ```html
-<div class="button button--icon button--lg button--primary">
-  @include('components.partials.svgs.icon-arrow-down')
-</div>
+<a href="" class="button button--icon button--lg button--primary">
+  <!-- include icon in svg format (import from package or blade component) -->
+</a>
 ```

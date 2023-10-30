@@ -5,18 +5,18 @@ label: "Layout"
 title: "Grid"
 subtitle: "Layout component to create column based grid structure like bootstrap."
 example: |-
-  <div class="docs__grid grid grid--spacing-1 grid--column">
+  <div class="docs__grid grid grid--spacing1 grid--column">
     <div class="grid__item"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
-    <div class="grid grid--spacing-1 grid--jc-start grid__item">
+    <div class="grid grid--spacing1 grid--jc-start grid__item">
       <div class="grid__item grid__item--4"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
       <div class="grid__item grid__item--2"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
       <div class="grid__item grid__item--6"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
     </div>
-    <div class="grid grid--spacing-1 grid--jc-start grid__item">
+    <div class="grid grid--spacing1 grid--jc-start grid__item">
       <div class="grid__item grid__item--4"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
       <div class="grid__item grid__item--8"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
     </div>
-    <div class="grid grid--spacing-1 grid--jc-start grid__item">
+    <div class="grid grid--spacing1 grid--jc-start grid__item">
       <div class="grid__item grid__item--3"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
       <div class="grid__item grid__item--3"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
       <div class="grid__item grid__item--3"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
@@ -55,7 +55,7 @@ Sets the spacing between `grid__item` elements. Can only be applied to `grid`.
 
 | Classes | Description |
 | --- | --- |
-| `grid--spacing-X` | X can be a value between 1 to 12, one being the [`$spacing`]({% link _utils/variables.md %}#spacing) variable, and the rest a multiple of that variable |
+| `grid--spacingX` | X can be a value between 1 to 12, one being the [`$spacing`]({% link _utils/variables.md %}#spacing) variable, and the rest a multiple of that variable |
 
 ### Width
 
@@ -108,9 +108,9 @@ Overrides the `align-items` value. Can be applied to both `grid` and `grid__item
 ## Example
 
 ```html
-<div class="grid grid--spacing-4">
+<div class="grid grid--spacing4">
   <div class="grid__item grid__item--lg7 grid__item--md6"></div>
-  <div class="grid grid--spacing-1 grid__item grid__item--lg3 grid__item--md6">
+  <div class="grid grid--spacing1 grid__item grid__item--lg3 grid__item--md6">
     <div class="grid__item grid__item--4"></div>
     <div class="grid__item grid__item--4"></div>
     <div class="grid__item grid__item--2"></div>
