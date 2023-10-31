@@ -16,11 +16,12 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
 
   <!-- CSS -->
-  <!-- link to online file -->
+  <!-- online file -->
   <link rel="stylesheet" type="text/css" href="https://www.bluto.co.uk/css/app.css">
-  <!-- link to exported css file if working offline -->
+  <!-- exported css file if working offline -->
   <!-- <link rel="stylesheet" type="text/css" href="/assets/offline/bluto.css"> -->
-  <link rel="stylesheet" type="text/css" href="/assets/stylesheets/style.css" />
+  <!-- override file -->
+  <link rel="stylesheet" type="text/css" href="{% link assets/stylesheets/style.scss %}" />
   
   <!-- favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.bluto.co.uk/images/favicon/apple-touch-icon.png">
