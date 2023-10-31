@@ -2,7 +2,7 @@ title: Bluto design
 description: >-
   Bluto's design system documentation
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://docs.bluto.co.uk"
+url: "https://bluteau-ltd.github.io/bluto-design"
 
 # permalinks config
 permalink: /:path
