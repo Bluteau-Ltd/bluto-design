@@ -1,6 +1,6 @@
-title: Bluto docs
+title: Bluto design
 description: >-
-  CSS documentation for Bluto's webapp
+  Bluto's design system documentation
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://docs.bluto.co.uk"
 
