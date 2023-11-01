@@ -3,7 +3,7 @@ layout: "default"
 
 label: "Mixins"
 title: "Text"
-subtitle: "This is a special component. Elements do not follow the BEM nomenclature (but the modifiers do). Each elements has a disctinct class name."
+subtitle: "For this component, elements do not follow the BEM nomenclature (but modifiers do). Elements all have unique classes names, each class name corresponding to a different text style. Modifiers can be applied to any element, not necessarily text."
 example: |-
   <div class="text--right">
       <p class="body">
@@ -22,8 +22,6 @@ example: |-
       </p>
   </div>
 ---
-
-For this component, elements do not follow the BEM nomenclature (but modifiers do). Elements all have unique classes names, each class name corresponding to a different text style. Modifiers can be applied to any element, not necessarily text.
 
 ## Elements
 

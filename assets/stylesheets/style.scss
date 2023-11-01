@@ -4,7 +4,9 @@
 @charset "UTF-8";
 
 @import	
-  "utils/_global",
+  "common/_variables",
+  "common/_mixins",
+  "common/_global",
 
   "components/_navbar",
   "components/_editor",

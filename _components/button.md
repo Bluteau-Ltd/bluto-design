@@ -6,9 +6,9 @@ title: "Button"
 subtitle: "Component for every call-to-action."
 example: |-
   <div class="button__wrapper">
-    <div class="button button--md button--primary">Sign up</div>
-    <div class="button button--md button--secondary">Login</div>
-    <div class="button button--md button--grey">Next</div>
+    <button class="button button--md button--primary">Sign up</button>
+    <button class="button button--md button--secondary">Login</button>
+    <button class="button button--md button--grey">Next</button>
   </div>
 ---
 

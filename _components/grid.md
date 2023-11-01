@@ -7,16 +7,16 @@ subtitle: "Layout component to create column based grid structure like bootstrap
 example: |-
   <div class="docs__grid grid grid--spacing1 grid--column">
     <div class="grid__item"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
-    <div class="grid grid--spacing1 grid--jc-start grid__item">
+    <div class="grid grid--spacing1 grid--jcStart grid__item">
       <div class="grid__item grid__item--4"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
       <div class="grid__item grid__item--2"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
       <div class="grid__item grid__item--6"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
     </div>
-    <div class="grid grid--spacing1 grid--jc-start grid__item">
+    <div class="grid grid--spacing1 grid--jcStart grid__item">
       <div class="grid__item grid__item--4"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
       <div class="grid__item grid__item--8"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
     </div>
-    <div class="grid grid--spacing1 grid--jc-start grid__item">
+    <div class="grid grid--spacing1 grid--jcStart grid__item">
       <div class="grid__item grid__item--3"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
       <div class="grid__item grid__item--3"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
       <div class="grid__item grid__item--3"><div class="fill--grey40" style="border-radius: 8px; padding: 8px;"></div></div>
@@ -86,12 +86,12 @@ Overrides the `justify-content` value. Can be applied to both `grid` and `grid__
 
 | Classes |
 | --- |
-| `grid--jc-center` |
-| `grid--jc-end` |
-| `grid--jc-start` |
-| `grid--jc-space-around` |
-| `grid--jc-space-between` |
-| `grid--jc-space-evenly` |
+| `grid--jcCenter` |
+| `grid--jcEnd` |
+| `grid--jcStart` |
+| `grid--jcSpace-around` |
+| `grid--jcSpace-between` |
+| `grid--jcSpace-evenly` |
 
 ### Align items
 
@@ -99,11 +99,11 @@ Overrides the `align-items` value. Can be applied to both `grid` and `grid__item
 
 | Classes |
 | --- |
-| `grid--ai-center` |
-| `grid--ai-end` |
-| `grid--ai-start` |
-| `grid--ai-stretch` |
-| `grid--ai-baseline` |
+| `grid--aiCenter` |
+| `grid--aiEnd` |
+| `grid--aiStart` |
+| `grid--aiStretch` |
+| `grid--aiBaseline` |
 
 ## Example
 

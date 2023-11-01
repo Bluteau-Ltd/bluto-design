@@ -10,7 +10,17 @@ layout: compress
       {% if page.label %}
       <p class="caption section__label">{{ page.label }}</p>
       {% endif %}
-      <h1 class="h2 section__title">{{ page.title }}</h1>
+      <div class="section__title grid grid--aiBaseline grid--jcStart">
+        <a class="button button--icon button--sm button--grey {% if page.previous.url == null %}disabled{% endif %} mr-2"
+          {% if page.previous.url !=null %}href="{% link {{ page.previous.path }} %}" {% endif %}>
+          {% svg /assets/icons/chevron-left.svg %}
+        </a>
+        <h1 class="h2">{{ page.title }}</h1>
+        <a class="button button--icon button--sm button--grey {% if page.next.url == null %}disabled{% endif %} ml-2"
+          {% if page.next.url !=null %}href="{% link {{ page.next.path }} %}" {% endif %}>
+          {% svg /assets/icons/chevron-right.svg %}
+        </a>
+      </div>
       {% if page.subtitle %}
       <p class="section__subtitle">{{ page.subtitle }}</p>
       {% endif %}

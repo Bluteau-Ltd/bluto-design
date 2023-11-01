@@ -22,10 +22,17 @@
   }
   
   &__example {
-    position: absolute;
-    right: 0;
-    bottom: 50%;
-    transform: translateY(50%);
+
+    @include responsive(up, tablet) {
+      position: absolute;
+      right: 0;
+      bottom: 50%;
+      transform: translateY(50%);
+    }
+
+    @include responsive(down, tablet) {
+      margin-top: 40px;
+    }
   }
 }
 
@@ -40,13 +47,6 @@
   &__card,
   &__grid {
     width: 360px;
-  }
-
-  &__accordion {
-
-    .accordion__item {
-      background-color: #FFFFFF !important;
-    }
   }
 
   &__anchors {
